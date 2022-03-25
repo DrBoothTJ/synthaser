@@ -366,27 +366,27 @@
   "hierarchy": [
     {
       "title": "Response regulator",
-        "key": "a3436695-09d7-490f-acee-6d67a5181112",
-        "children": [
-          {
-            "title": "Multi-component histidine kinase",
-            "key": "a3436695-09d7-490f-acee-6d67a5186295",
-        "children": []
+      "key": "a3436695-09d7-490f-acee-6d67a5181112",
+      "children": [
+        {
+          "title": "Multi-component histidine kinase",
+          "key": "a3436695-09d7-490f-acee-6d67a5186295",
+          "children": []
           },
           {
             "title": "DNA-binding response regulator",
             "key": "a3436695-09d7-490f-acee-6d67a5186284",
-        "children": []
+            "children": []
           }
-      ]
-      },
+        ]
+    },
     {
       "title": "Two-component histidine kinase",
       "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
       "children": []
 	},
-    {
-      "expanded": true
+  {
+     "expanded": true
     }
   ]
 }
