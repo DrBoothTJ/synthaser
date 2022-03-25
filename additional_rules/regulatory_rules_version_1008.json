@@ -1,0 +1,392 @@
+{
+  "domains": [
+    {
+      "uuid": "ec3311bf-9711-418c-a855-4147d5468d15",
+      "name": "HDc",
+      "domains": [
+        {
+          "pssm": 238032,
+          "accession": "cd00077",
+          "name": "HDc",
+          "length": 145,
+          "bitscore": 32.3113,
+          "superfamily": "cl21469",
+          "label": "HDc [cd00077]",
+          "value": "HDc"
+        }
+      ]
+    },
+    {
+      "uuid": "e2d25653-ce59-4c69-9706-a26def8b89eb",
+      "name": "Hypothetical",
+      "domains": [
+        {
+          "pssm": 373017,
+          "accession": "pfam14332",
+          "name": "DUF4388",
+          "length": 102,
+          "bitscore": 32.9737,
+          "superfamily": "pfam14332",
+          "label": "DUF4388 [pfam14332]",
+          "value": "DUF4388"
+        }
+      ]
+    },
+    {
+      "uuid": "3644eae7-8d35-4c29-a629-b2a995f5dc70",
+      "name": "HTH",
+      "domains": [
+        {
+          "pssm": 389747,
+          "accession": "cl21459",
+          "name": "HTH",
+          "length": 0,
+          "label": "HTH [cl21459]",
+          "value": "HTH"
+        },
+        {
+          "pssm": 294013,
+          "accession": "cd00383",
+          "name": "trans_reg_C",
+          "length": 89,
+          "bitscore": 53.2517,
+          "superfamily": "cl21459",
+          "label": "trans_reg_C [cd00383]",
+          "value": "trans_reg_C"
+        },
+        {
+          "pssm": 214866,
+          "accession": "smart00862",
+          "name": "Trans_reg_C",
+          "length": 76,
+          "bitscore": 27.9018,
+          "superfamily": "cl21459",
+          "label": "Trans_reg_C [smart00862]",
+          "value": "Trans_reg_C"
+        }
+      ]
+    },
+    {
+      "uuid": "8ecfe6fc-316f-4f46-b57c-d41b20cb31ea",
+      "name": "CHD",
+      "domains": [
+        {
+          "pssm": 225025,
+          "accession": "COG2114",
+          "name": "AcyC",
+          "length": 227,
+          "bitscore": 39.8314,
+          "superfamily": "cl11967",
+          "label": "AcyC [COG2114]",
+          "value": "AcyC"
+        },
+        {
+          "pssm": 143636,
+          "accession": "cd07302",
+          "name": "CHD",
+          "length": 177,
+          "bitscore": 68.3747,
+          "superfamily": "cl11967",
+          "label": "CHD [cd07302]",
+          "value": "CHD"
+        },
+        {
+          "pssm": 386234,
+          "accession": "cl11967",
+          "name": "Nucleotidyl_cyc_III",
+          "length": 0,
+          "label": "Nucleotidyl_cyc_III [cl11967]",
+          "value": "Nucleotidyl_cyc_III"
+        }
+      ]
+    },
+    {
+      "uuid": "ef9c4577-cafd-49d1-94f1-ee3b82883759",
+      "name": "KdpD",
+      "domains": [
+        {
+          "pssm": 376905,
+          "accession": "pfam02702",
+          "name": "KdpD",
+          "length": 210,
+          "bitscore": 169.118,
+          "superfamily": "pfam02702",
+          "label": "KdpD [pfam02702]",
+          "value": "KdpD"
+        }
+      ]
+    },
+    {
+      "uuid": "58a39338-7820-49e8-a5b1-9eca1c77c81b",
+      "name": "NarQ",
+      "domains": [
+        {
+          "pssm": 226368,
+          "accession": "COG3850",
+          "name": "NarQ",
+          "length": 574,
+          "bitscore": 657.112,
+          "superfamily": "COG3850",
+          "label": "NarQ [COG3850]",
+          "value": "NarQ"
+        }
+      ]
+    },
+    {
+      "uuid": "9cb5c707-e4cc-4ad8-821b-7233221efa01",
+      "name": "MCP",
+      "domains": [
+        {
+          "pssm": 223910,
+          "accession": "COG0840",
+          "name": "Tar",
+          "length": 408,
+          "bitscore": 34.196,
+          "superfamily": "cl39097",
+          "label": "Tar [COG0840]",
+          "value": "Tar"
+        },
+        {
+          "pssm": 393467,
+          "accession": "cl39097",
+          "name": "MCP_signal",
+          "length": 0,
+          "label": "MCP_signal [cl39097]",
+          "value": "MCP_signal"
+        }
+      ]
+    },
+    {
+      "uuid": "87e1acc3-2df1-47ea-a49e-e3c145b265d2",
+      "name": "SLC5",
+      "domains": [
+        {
+          "pssm": 223664,
+          "accession": "COG0591",
+          "name": "PutP",
+          "length": 493,
+          "bitscore": 180.19,
+          "superfamily": "cl00456",
+          "label": "PutP [COG0591]",
+          "value": "PutP"
+        },
+        {
+          "pssm": 271364,
+          "accession": "cd10332",
+          "name": "SLC6sbd-B0AT-like",
+          "length": 531,
+          "bitscore": 826.523,
+          "superfamily": "cl00456",
+          "label": "SLC6sbd-B0AT-like [cd10332]",
+          "value": "SLC6sbd-B0AT-like"
+        },
+        {
+          "pssm": 382020,
+          "accession": "cl00456",
+          "name": "SLC5-6-like_sbd",
+          "length": 0,
+          "label": "SLC5-6-like_sbd [cl00456]",
+          "value": "SLC5-6-like_sbd"
+        }
+      ]
+    },
+    {
+      "uuid": "02404b73-ebbb-4b58-a10a-22b4f899b0ae",
+      "name": "GAF",
+      "domains": [
+        {
+          "pssm": 389784,
+          "accession": "cl21515",
+          "name": "GAF",
+          "length": 0,
+          "label": "GAF [cl21515]",
+          "value": "GAF"
+        },
+        {
+          "pssm": 225113,
+          "accession": "COG2203",
+          "name": "FhlA",
+          "length": 175,
+          "bitscore": 30.715,
+          "superfamily": "cl21515",
+          "label": "FhlA [COG2203]",
+          "value": "FhlA"
+        },
+        {
+          "pssm": 379056,
+          "accession": "pfam13185",
+          "name": "GAF_2",
+          "length": 136,
+          "bitscore": 32.025,
+          "superfamily": "cl21515",
+          "label": "GAF_2 [pfam13185]",
+          "value": "GAF_2"
+        }
+      ]
+    },
+    {
+      "uuid": "1d75e425-ea0e-4403-873e-92ab35921039",
+      "name": "PAS",
+      "domains": [
+        {
+          "pssm": 389822,
+          "accession": "cl21578",
+          "name": "PAS",
+          "length": 0,
+          "label": "PAS [cl21578]",
+          "value": "PAS"
+        },
+        {
+          "pssm": 182070,
+          "accession": "PRK09776",
+          "name": "PRK09776",
+          "length": 1092,
+          "bitscore": 1676.37,
+          "superfamily": "PRK09776",
+          "label": "PRK09776 [PRK09776]",
+          "value": "PRK09776"
+        },
+        {
+          "pssm": 365792,
+          "accession": "cl38916",
+          "name": "HK_sensor",
+          "length": 0,
+          "label": "HK_sensor [cl38916]",
+          "value": "HK_sensor"
+        }
+      ]
+    },
+    {
+      "uuid": "dba17787-cb0d-491e-b298-3b9bb7540bce",
+      "name": "REC",
+      "domains": [
+        {
+          "pssm": 388505,
+          "accession": "cl19078",
+          "name": "REC",
+          "length": 0,
+          "label": "REC [cl19078]",
+          "value": "REC"
+        }
+      ]
+    },
+    {
+      "uuid": "e2d5361a-6fed-443e-a8e2-5d3a18304823",
+      "name": "HKinase",
+      "domains": [
+        {
+          "pssm": 119399,
+          "accession": "cd00082",
+          "name": "HisKA",
+          "length": 65,
+          "bitscore": 30.2584,
+          "superfamily": "cl29579",
+          "label": "HisKA [cd00082]",
+          "value": "HisKA"
+        }
+      ]
+    },
+    {
+      "uuid": "1385a3c7-6080-4afa-bf7e-ed20f61120ca",
+      "name": "HATPase",
+      "domains": [
+        {
+          "pssm": 214643,
+          "accession": "smart00387",
+          "name": "HATPase_c",
+          "length": 111,
+          "bitscore": 29.5391,
+          "superfamily": "cl00075",
+          "label": "HATPase_c [smart00387]",
+          "value": "HATPase_c"
+        },
+        {
+          "pssm": 340391,
+          "accession": "cd00075",
+          "name": "HATPase",
+          "length": 102,
+          "bitscore": 37.5826,
+          "superfamily": "cl00075",
+          "label": "HATPase [cd00075]",
+          "value": "HATPase"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518HTH1",
+      "name": "DNA-binding response regulator",
+      "domains": [
+        "REC",
+        "HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a5186295",
+      "name": "Multi-component histidine kinase",
+      "domains": [
+        "HKinase",
+        "HATPase",
+        "REC"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1 and 2"
+    },
+	{
+      "uuid": "a3436695-09d7-490f-acee-6d67a5181111",
+      "name": "Response regulator",
+      "domains": [
+        "REC"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+      "name": "Two-component histidine kinase",
+      "domains": [
+        "HKinase",
+        "HATPase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    }
+  ],
+  "hierarchy": [
+    {
+      "title": "Response regulator",
+        "key": "a3436695-09d7-490f-acee-6d67a5181112",
+        "children": [
+          {
+            "title": "Multi-component histidine kinase",
+            "key": "a3436695-09d7-490f-acee-6d67a5186295",
+        "children": []
+          },
+          {
+            "title": "DNA-binding response regulator",
+            "key": "a3436695-09d7-490f-acee-6d67a5186284",
+        "children": []
+          }
+      ]
+      },
+    {
+      "title": "Two-component histidine kinase",
+      "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+      "children": []
+	},
+    {
+      "expanded": true
+    }
+  ]
+}
