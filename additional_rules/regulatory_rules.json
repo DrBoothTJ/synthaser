@@ -1,6 +1,98 @@
 {
   "domains": [
     {
+      "uuid": "8d1bd47e-164f-407a-9b07-4066ea6482e3",
+      "name": "ATPase",
+      "domains": [
+        {
+          "pssm": 379062,
+          "accession": "pfam13191",
+          "name": "AAA_16",
+          "length": 166,
+          "bitscore": 36.3502,
+          "superfamily": "cl38936",
+          "label": "AAA_16 [pfam13191]",
+          "value": "AAA_16"
+        },
+        {
+          "pssm": 393306,
+          "accession": "cl38936",
+          "name": "P-loop_NTPase",
+          "length": 0,
+          "label": "P-loop_NTPase [cl38936]",
+          "value": "P-loop_NTPase"
+        },
+        {
+          "pssm": 226415,
+          "accession": "COG3899",
+          "name": "COG3899",
+          "length": 849,
+          "bitscore": 337.448,
+          "superfamily": "COG3899",
+          "label": "COG3899 [COG3899]",
+          "value": "COG3899"
+        }
+      ]
+    },
+    {
+      "uuid": "8dad2cd6-fd03-4be0-b7fb-12608da67f20",
+      "name": "Cupin",
+      "domains": [
+        {
+          "pssm": 394793,
+          "accession": "cl40423",
+          "name": "cupin_RmlC-like",
+          "length": 0,
+          "label": "cupin_RmlC-like [cl40423]",
+          "value": "cupin_RmlC-like"
+        }
+      ]
+    },
+    {
+      "uuid": "8dad2cd6-fd03-4be0-b7fb-12608da67f20",
+      "name": "PBP2",
+      "domains": [
+        {
+          "pssm": 389745,
+          "accession": "cl21456",
+          "name": "Periplasmic_Binding_Protein_Type_2",
+          "length": 0,
+          "label": "Periplasmic_Binding_Protein_Type_2 [cl21456]",
+          "value": "Periplasmic_Binding_Protein_Type_2"
+        },
+        {
+          "pssm": 377048,
+          "accession": "pfam03466",
+          "name": "LysR_substrate",
+          "length": 202,
+          "bitscore": 60.3748,
+          "superfamily": "cl21456",
+          "label": "LysR_substrate [pfam03466]",
+          "value": "LysR_substrate"
+        },
+        {
+          "pssm": 176106,
+          "accession": "cd08414",
+          "name": "PBP2_LTTR_aromatics_like",
+          "length": 197,
+          "bitscore": 89.4887,
+          "superfamily": "cl21456",
+          "label": "PBP2_LTTR_aromatics_like [cd08414]",
+          "value": "PBP2_LTTR_aromatics_like"
+        },
+        {
+          "pssm": 176124,
+          "accession": "cd08433",
+          "name": "PBP2_Nac",
+          "length": 198,
+          "bitscore": 189.343,
+          "superfamily": "cl21456",
+          "label": "PBP2_Nac [cd08433]",
+          "value": "PBP2_Nac"
+        }
+      ]
+    },
+    {
       "uuid": "ec3311bf-9711-418c-a855-4147d5468d15",
       "name": "HDc",
       "domains": [
@@ -63,6 +155,26 @@
           "superfamily": "cl21459",
           "label": "Trans_reg_C [smart00862]",
           "value": "Trans_reg_C"
+        },
+        {
+          "pssm": 378964,
+          "accession": "pfam12833",
+          "name": "HTH_18",
+          "length": 81,
+          "bitscore": 44.1093,
+          "superfamily": "pfam12833",
+          "label": "HTH_18 [pfam12833]",
+          "value": "HTH_18"
+        },
+        {
+          "pssm": 197666,
+          "accession": "smart00342",
+          "name": "HTH_ARAC",
+          "length": 84,
+          "bitscore": 64.1113,
+          "superfamily": "smart00342",
+          "label": "HTH_ARAC [smart00342]",
+          "value": "HTH_ARAC"
         }
       ]
     },
@@ -309,11 +421,65 @@
           "superfamily": "cl00075",
           "label": "HATPase [cd00075]",
           "value": "HATPase"
+        },
+        {
+          "pssm": 226951,
+          "accession": "COG4585",
+          "name": "COG4585",
+          "length": 365,
+          "bitscore": 139.929,
+          "superfamily": "COG4585",
+          "label": "COG4585 [COG4585]",
+          "value": "COG4585"
+        },
+        {
+          "pssm": 381791,
+          "accession": "cl00075",
+          "name": "HATPase",
+          "length": 0,
+          "label": "HATPase [cl00075]",
+          "value": "HATPase"
         }
       ]
     }
   ],
   "rules": [
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518LAL",
+      "name": "LAL regulator",
+      "domains": [
+        "HTH",
+        "ATPase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518CUP",
+      "name": "AraC regulator",
+      "domains": [
+        "HTH",
+        "Cupin"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518PBP",
+      "name": "LysR regulator",
+      "domains": [
+        "HTH",
+        "PBP2"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518HTH1",
       "name": "DNA-binding response regulator",
@@ -365,6 +531,21 @@
   ],
   "hierarchy": [
     {
+      "title": "LAL regulator",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
+      "children": []
+	},
+    {
+      "title": "AraC regulator",
+      "key": "352651f8-becd-4aba-8f5f-34f83f867ARA",
+      "children": []
+	},
+    {
+      "title": "LysR regulator",
+      "key": "352651f8-becd-4aba-8f5f-34f83f867LYS",
+      "children": []
+	},
+    {
       "title": "Response regulator",
       "key": "a3436695-09d7-490f-acee-6d67a5181112",
       "children": [
@@ -384,9 +565,6 @@
       "title": "Two-component histidine kinase",
       "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
       "children": []
-	},
-  {
-     "expanded": true
-    }
+	}
   ]
 }
