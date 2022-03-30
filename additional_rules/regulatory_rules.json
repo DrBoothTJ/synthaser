@@ -1,6 +1,22 @@
 {
   "domains": [
     {
+      "uuid": "d4db58fe-9b89-4f22-8ec4-f0203ce120ca",
+      "name": "GTPase",
+      "domains": [
+        {
+          "pssm": 226418,
+          "accession": "COG3903",
+          "name": "COG3903",
+          "length": 414,
+          "bitscore": 337.077,
+          "superfamily": "cl38985",
+          "label": "COG3903 [COG3903]",
+          "value": "COG3903"
+        }
+      ]
+    },
+    {
       "uuid": "27ce073f-8947-454c-a755-9b58a147aec9",
       "name": "RpoE",
       "domains": [
@@ -23,6 +39,16 @@
           "superfamily": "TIGR02937",
           "label": "sigma70-ECF [TIGR02937]",
           "value": "sigma70-ECF"
+        },
+        {
+          "pssm": 227277,
+          "accession": "COG4941",
+          "name": "COG4941",
+          "length": 415,
+          "bitscore": 399.501,
+          "superfamily": "COG4941",
+          "label": "COG4941 [COG4941]",
+          "value": "COG4941"
         }
       ]
     },
@@ -111,6 +137,16 @@
           "superfamily": "COG1112",
           "label": "DNA2 [COG1112]",
           "value": "DNA2"
+        },
+        {
+          "pssm": 137505,
+          "accession": "PRK09751",
+          "name": "PRK09751",
+          "length": 1490,
+          "bitscore": 2626.52,
+          "superfamily": "PRK09751",
+          "label": "PRK09751 [PRK09751]",
+          "value": "PRK09751"
         }
       ]
     },
@@ -233,6 +269,24 @@
           "superfamily": "COG3899",
           "label": "COG3899 [COG3899]",
           "value": "COG3899"
+        },
+        {
+          "pssm": 341301,
+          "accession": "cd17646",
+          "name": "A_NRPS_AB3403-like",
+          "length": 488,
+          "bitscore": 564.208,
+          "superfamily": "cl17068",
+          "label": "A_NRPS_AB3403-like [cd17646]",
+          "value": "A_NRPS_AB3403-like"
+        },
+        {
+          "pssm": 388389,
+          "accession": "cl17068",
+          "name": "AFD_class_I",
+          "length": 0,
+          "label": "AFD_class_I [cl17068]",
+          "value": "AFD_class_I"
         }
       ]
     },
@@ -662,8 +716,50 @@
           "label": "HATPase [cl00075]",
           "value": "HATPase"
         }
-      ]
-    }
+        ]
+      },
+      {
+        "uuid": "c3ece0eb-498f-4f49-b734-8d743221e790",
+        "name": "EAP30",
+        "domains": [
+          {
+            "pssm": 367847,
+            "accession": "pfam04157",
+            "name": "EAP30",
+            "length": 216,
+            "bitscore": 69.5846,
+            "superfamily": "pfam04157",
+            "label": "EAP30 [pfam04157]",
+            "value": "EAP30"
+          }
+        ]
+        },
+        {
+          "uuid": "776d8415-8bb2-43d7-a792-b7728d774bf3",
+          "name": "TPR",
+          "domains": [
+            {
+              "pssm": 223533,
+              "accession": "COG0457",
+              "name": "TPR",
+              "length": 291,
+              "bitscore": 27.5029,
+              "superfamily": "COG0457",
+              "label": "TPR [COG0457]",
+              "value": "TPR"
+            },
+            {
+              "pssm": 315987,
+              "accession": "pfam13424",
+              "name": "TPR_12",
+              "length": 77,
+              "bitscore": 30.8184,
+              "superfamily": "pfam13424",
+              "label": "TPR_12 [pfam13424]",
+              "value": "TPR_12"
+            }
+          ]
+        }
   ],
   "rules": [
     {
@@ -786,7 +882,7 @@
       "evaluator": "0 and 1"
     },
     {
-      "uuid": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+      "uuid": "352651f8-becd-4aba-8f5f-34fSIGMA70",
       "name": "Sigma 70",
       "domains": [
         "RpoE"
@@ -795,9 +891,52 @@
       "renames": [],
       "children": [],
       "evaluator": "0"
+    },
+    {
+      "uuid": "352651f8-becd-4aba-8f5f-34f83f86sarP",
+      "name": "SARP",
+      "domains": [
+        "BTAD",
+        "HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    
+    {
+      "uuid": "352651f8-becd-4aba-8f5f-34f83f8672NB",
+      "name": "Nucleotide-binding SARP",
+      "domains": [
+        "BTAD",
+        "HTH",
+        "ATPase",
+        "GTPase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1 and (2 or 3)"
     }
   ],
   "hierarchy": [
+    {
+      "title": "SARP",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SARP",
+      "children": [
+        { 
+          "title": "Nucleotide-binding SARP",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
+          "children": []
+        }
+      ]
+	  },
+    {
+      "title": "Sigma 70",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LS70",
+      "children": []
+	  },
     {
       "title": "Serine-threonine kinase",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LSTR",
@@ -812,24 +951,23 @@
           "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
           "children": []
         }
-
       ]
-	},
+	  },
     {
       "title": "LAL regulator",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
       "children": []
-	},
+	  },
     {
       "title": "AraC regulator",
       "key": "352651f8-becd-4aba-8f5f-34f83f867ARA",
       "children": []
-	},
+	  },
     {
       "title": "LysR regulator",
       "key": "352651f8-becd-4aba-8f5f-34f83f867LYS",
       "children": []
-	},
+	  },
     {
       "title": "Response regulator",
       "key": "a3436695-09d7-490f-acee-6d67a5181112",
