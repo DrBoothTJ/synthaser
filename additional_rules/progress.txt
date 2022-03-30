@@ -2,23 +2,11 @@ SMCOG1003 sensor histidine kinase done
 SMCOG1008 response regulator done
 SMCOG1014 LysR family transcriptional regulator done
 SMCOG1015 AraC family transcriptional regulator done
-        ('SMCOG1016', 'LuxR family DNA-binding response regulator', 'regulator'),
-        ('SMCOG1017', 'aldehyde dehydrogenase', 'biosynthetic_smcog'),
-        ('SMCOG1018', 'isochorismate synthase', 'biosynthetic_smcog'),
-        ('SMCOG1019', 'aminotransferase', 'biosynthetic_smcog'),
-        ('SMCOG1020', 'major facilitator transporter', 'transporter'),
-        ('SMCOG1021', 'malonyl CoA-acyl carrier protein transacylase', 'biosynthetic_smcog'),
-        ('SMCOG1022', 'Beta-ketoacyl synthase', 'biosynthetic_smcog'),
-        ('SMCOG1023', 'enoyl-CoA hydratase', 'biosynthetic_smcog'),
-        ('SMCOG1024', 'chalcone and stilbene synthase domain protein', 'biosynthetic_smcog'),
-        ('SMCOG1025', 'diguanylate cyclase', 'biosynthetic_smcog'),
-        ('SMCOG1026', 'transposase', 'other'),
-        ('SMCOG1027', 'isochorismatase', 'biosynthetic_smcog'),
-        ('SMCOG1028', 'crotonyl-CoA reductase / alcohol', 'dehydrogenase'),
-        ('SMCOG1029', 'RND family efflux transporter MFP subunit', 'transporter'),
-        ('SMCOG1030', 'serine/threonine protein kinase', 'regulator'),
-        ('SMCOG1031', 'LysR family transcriptional regulator', 'regulator'),
-        ('SMCOG1032', 'RNA polymerase, sigma-24 subunit, ECF subfamily', 'regulator'),
+SMCOG1016 LuxR family DNA-binding response regulator done
+SMCOG1030 serine/threonine protein kinase done
+SMCOG1031 LysR family transcriptional regulator done
+SMCOG1032 RNA polymerase, sigma-24 subunit, ECF subfamily
+
         ('SMCOG1033', 'iron compound ABC transporter, periplasmic', 'transporter'),
         ('SMCOG1034', 'cytochrome P450', 'biosynthetic_smcog'),
         ('SMCOG1035', 'MMPL domain-containing transport protein', 'biosynthetic_smcog'),

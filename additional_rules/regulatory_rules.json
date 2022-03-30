@@ -1,6 +1,208 @@
 {
   "domains": [
     {
+      "uuid": "27ce073f-8947-454c-a755-9b58a147aec9",
+      "name": "RpoE",
+      "domains": [
+        {
+          "pssm": 224511,
+          "accession": "COG1595",
+          "name": "RpoE",
+          "length": 182,
+          "bitscore": 60.1045,
+          "superfamily": "COG1595",
+          "label": "RpoE [COG1595]",
+          "value": "RpoE"
+        },
+        {
+          "pssm": 274357,
+          "accession": "TIGR02937",
+          "name": "sigma70-ECF",
+          "length": 158,
+          "bitscore": 32.3192,
+          "superfamily": "TIGR02937",
+          "label": "sigma70-ECF [TIGR02937]",
+          "value": "sigma70-ECF"
+        }
+      ]
+    },
+    {
+      "uuid": "ec7e1f0d-7b7a-4e85-ba8c-5ef95171f99d",
+      "name": "DNA polymerase",
+      "domains": [
+        {
+          "pssm": 237057,
+          "accession": "PRK12323",
+          "name": "PRK12323",
+          "length": 700,
+          "bitscore": 893.847,
+          "superfamily": "PRK12323",
+          "label": "PRK12323 [PRK12323]",
+          "value": "PRK12323"
+        }
+      ]
+    },
+    {
+      "uuid": "63e1f03b-4768-44e7-a81f-e11f9b7436c1",
+      "name": "peptidase",
+      "domains": [
+        {
+          "pssm": 334197,
+          "accession": "pfam00656",
+          "name": "Peptidase_C14",
+          "length": 230,
+          "bitscore": 33.4445,
+          "superfamily": "cl00042",
+          "label": "Peptidase_C14 [pfam00656]",
+          "value": "Peptidase_C14"
+        },
+        {
+          "pssm": 381771,
+          "accession": "cl00042",
+          "name": "CASc",
+          "length": 0,
+          "label": "CASc [cl00042]",
+          "value": "CASc"
+        }
+      ]
+    },
+    {
+      "uuid": "7f4a0e6b-75a2-4db5-9ecc-70affef89d46",
+      "name": "LTP",
+      "domains": [
+        {
+          "pssm": 223021,
+          "accession": "PHA03247",
+          "name": "PHA03247",
+          "length": 3151,
+          "bitscore": 4070.65,
+          "superfamily": "PHA03247",
+          "label": "PHA03247 [PHA03247]",
+          "value": "PHA03247"
+        }
+      ]
+    },
+    {
+      "uuid": "731bf82e-cd57-4eac-8c19-f053e30fc59e",
+      "name": "BTAD",
+      "domains": [
+        {
+          "pssm": 367616,
+          "accession": "pfam03704",
+          "name": "BTAD",
+          "length": 146,
+          "bitscore": 72.3184,
+          "superfamily": "cl29992",
+          "label": "BTAD [pfam03704]",
+          "value": "BTAD"
+        }
+      ]
+    },
+    {
+      "uuid": "6c887097-a4a1-4533-8d52-7f7ba38f074d",
+      "name": "Helicase",
+      "domains": [
+        {
+          "pssm": 224037,
+          "accession": "COG1112",
+          "name": "DNA2",
+          "length": 767,
+          "bitscore": 28.7737,
+          "superfamily": "COG1112",
+          "label": "DNA2 [COG1112]",
+          "value": "DNA2"
+        }
+      ]
+    },
+    {
+      "uuid": "03c5fc05-4712-4699-a341-2fa2942807b4",
+      "name": "RE",
+      "domains": [
+        {
+          "pssm": 380141,
+          "accession": "pfam18741",
+          "name": "MTES_1575",
+          "length": 97,
+          "bitscore": 36.3037,
+          "superfamily": "pfam18741",
+          "label": "MTES_1575 [pfam18741]",
+          "value": "MTES_1575"
+        }
+      ]
+    },
+    {
+      "uuid": "1436c418-36ae-4c46-b868-0e8ec76f1e4e",
+      "name": "LANC",
+      "domains": [
+        {
+          "pssm": 271199,
+          "accession": "cd04791",
+          "name": "LanC_SerThrkinase",
+          "length": 327,
+          "bitscore": 148.573,
+          "superfamily": "cl04955",
+          "label": "LanC_SerThrkinase [cd04791]",
+          "value": "LanC_SerThrkinase"
+        },
+        {
+          "pssm": 383935,
+          "accession": "cl04955",
+          "name": "LanC_like",
+          "length": 0,
+          "label": "LanC_like [cl04955]",
+          "value": "LanC_like"
+        }
+      ]
+    },
+    {
+      "uuid": "9ae74bc8-b5d5-483b-bd50-e75d24c7a8b3",
+      "name": "LRR",
+      "domains": [
+        {
+          "pssm": 369783,
+          "accession": "pfam08263",
+          "name": "LRRNT_2",
+          "length": 41,
+          "bitscore": 32.2491,
+          "superfamily": "pfam08263",
+          "label": "LRRNT_2 [pfam08263]",
+          "value": "LRRNT_2"
+        }
+      ]
+    },
+    {
+      "uuid": "56fd1d67-d4a5-4cd2-8d37-666c166ebfb5",
+      "name": "STK",
+      "domains": [
+        {
+          "pssm": 389743,
+          "accession": "cl21453",
+          "name": "PKc_like",
+          "length": 0,
+          "label": "PKc_like [cl21453]",
+          "value": "PKc_like"
+        },
+        {
+          "pssm": 223589,
+          "accession": "COG0515",
+          "name": "SPS1",
+          "length": 384,
+          "bitscore": 30.8656,
+          "superfamily": "cl21453",
+          "label": "SPS1 [COG0515]",
+          "value": "SPS1"
+        },
+        {
+          "pssm": 389743,
+          "accession": "cl21453",
+          "name": "PKc_like",
+          "length": 0,
+          "label": "PKc_like [cl21453]",
+          "value": "PKc_like"
+        }
+      ]
+    },
+    {
       "uuid": "8d1bd47e-164f-407a-9b07-4066ea6482e3",
       "name": "ATPase",
       "domains": [
@@ -121,6 +323,26 @@
           "superfamily": "pfam14332",
           "label": "DUF4388 [pfam14332]",
           "value": "DUF4388"
+        },
+        {
+          "pssm": 379066,
+          "accession": "pfam13195",
+          "name": "DUF4011",
+          "length": 157,
+          "bitscore": 66.4917,
+          "superfamily": "pfam13195",
+          "label": "DUF4011 [pfam13195]",
+          "value": "DUF4011"
+        },
+        {
+          "pssm": 371876,
+          "accession": "pfam12063",
+          "name": "DUF3543",
+          "length": 250,
+          "bitscore": 123.147,
+          "superfamily": "pfam12063",
+          "label": "DUF3543 [pfam12063]",
+          "value": "DUF3543"
         }
       ]
     },
@@ -445,6 +667,41 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518STK",
+      "name": "Serine-threonine kinase",
+      "domains": [
+        "STK"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a5STKRR",
+      "name": "STK response regulator",
+      "domains": [
+        "STK",
+        "LRR"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518LAN",
+      "name": "LanC STK",
+      "domains": [
+        "STK",
+        "LANC"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518LAL",
       "name": "LAL regulator",
       "domains": [
@@ -527,9 +784,37 @@
       "renames": [],
       "children": [],
       "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+      "name": "Sigma 70",
+      "domains": [
+        "RpoE"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
     }
   ],
   "hierarchy": [
+    {
+      "title": "Serine-threonine kinase",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LSTR",
+      "children": [
+        { 
+          "title": "STK response regulator",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
+          "children": []
+        },
+        { 
+          "title": "LanC STK",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
+          "children": []
+        }
+
+      ]
+	},
     {
       "title": "LAL regulator",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
