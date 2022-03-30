@@ -1,6 +1,38 @@
 {
   "domains": [
     {
+      "uuid": "c5181a7d-394f-4198-bd56-0d3737c8603b",
+      "name": "protease",
+      "domains": [
+        {
+          "pssm": 238488,
+          "accession": "cd00988",
+          "name": "PDZ_CTP_protease",
+          "length": 85,
+          "bitscore": 60.3172,
+          "superfamily": "cl00117",
+          "label": "PDZ_CTP_protease [cd00988]",
+          "value": "PDZ_CTP_protease"
+        }
+      ]
+    },
+    {
+      "uuid": "c46bad2e-8cd6-4276-b310-c09bdbd12579",
+      "name": "Sensor",
+      "domains": [
+        {
+          "pssm": 379374,
+          "accession": "pfam13796",
+          "name": "Sensor",
+          "length": 179,
+          "bitscore": 60.7325,
+          "superfamily": "pfam13796",
+          "label": "Sensor [pfam13796]",
+          "value": "Sensor"
+        }
+      ]
+    },
+    {
       "uuid": "d4db58fe-9b89-4f22-8ec4-f0203ce120ca",
       "name": "GTPase",
       "domains": [
@@ -671,6 +703,16 @@
           "superfamily": "cl29579",
           "label": "HisKA [cd00082]",
           "value": "HisKA"
+        },
+        {
+          "pssm": 369489,
+          "accession": "pfam07730",
+          "name": "HisKA_3",
+          "length": 61,
+          "bitscore": 30.2674,
+          "superfamily": "pfam07730",
+          "label": "HisKA_3 [pfam07730]",
+          "value": "HisKA_3"
         }
       ]
     },
@@ -699,23 +741,23 @@
           "value": "HATPase"
         },
         {
-          "pssm": 226951,
-          "accession": "COG4585",
-          "name": "COG4585",
-          "length": 365,
-          "bitscore": 139.929,
-          "superfamily": "COG4585",
-          "label": "COG4585 [COG4585]",
-          "value": "COG4585"
-        },
-        {
           "pssm": 381791,
           "accession": "cl00075",
           "name": "HATPase",
           "length": 0,
           "label": "HATPase [cl00075]",
           "value": "HATPase"
-        }
+        },
+        {
+              "pssm": 340394,
+              "accession": "cd16917",
+              "name": "HATPase_UhpB-NarQ-NarX-like",
+              "length": 87,
+              "bitscore": 57.9488,
+              "superfamily": "cl00075",
+              "label": "HATPase_UhpB-NarQ-NarX-like [cd16917]",
+              "value": "HATPase_UhpB-NarQ-NarX-like"
+            }
         ]
       },
       {
@@ -846,6 +888,17 @@
       "evaluator": "0 and 1"
     },
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a5186HIS",
+      "name": "Histidine ATPase",
+      "domains": [
+        "HATPase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a5186295",
       "name": "Multi-component histidine kinase",
       "domains": [
@@ -972,11 +1025,6 @@
       "title": "Response regulator",
       "key": "a3436695-09d7-490f-acee-6d67a5181112",
       "children": [
-        {
-          "title": "Multi-component histidine kinase",
-          "key": "a3436695-09d7-490f-acee-6d67a5186295",
-          "children": []
-          },
           {
             "title": "DNA-binding response regulator",
             "key": "a3436695-09d7-490f-acee-6d67a5186284",
@@ -985,9 +1033,20 @@
         ]
     },
     {
-      "title": "Two-component histidine kinase",
-      "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
-      "children": []
+    "title": "Histidine ATPase",
+    "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+    "children": [
+      {
+        "title": "Two-component histidine kinase",
+        "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+        "children": []
+      },
+      {
+        "title": "Multi-component histidine kinase",
+        "key": "a3436695-09d7-490f-acee-6d67a5186295",
+        "children": []
+      }
+      ]
 	}
   ]
 }
