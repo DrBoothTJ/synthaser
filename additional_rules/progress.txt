@@ -9,8 +9,8 @@ SMCOG1032 RNA polymerase, sigma-24 subunit, ECF subfamily done
 SMCOG1041 transcriptional regulator, SARP family done
 SMCOG1048 sensor histidine kinase done
 SMCOG1057 TetR family transcriptional regulator done
- 
-       ('SMCOG1058', 'ArsR family transcriptional regulator', 'regulator'),
+SMCOG1058 ArsR family transcriptional regulator ...
+
         ('SMCOG1059', 'acetyl-CoA carboxylase, carboxyl transferase,', 'biosynthetic_smcog'),
         ('SMCOG1060', '4''-phosphopantetheinyl transferase', 'biosynthetic_smcog'),
         ('SMCOG1061', 'methyl-accepting chemotaxis protein', 'other'),
@@ -237,21 +237,4 @@ SMCOG1057 TetR family transcriptional regulator done
         ('SMCOG1282', 'extracellular ligand-binding receptor', 'transporter'),
         ('SMCOG1283', '2`,3`-cyclic-nucleotide 2`-phosphodiesterase', 'biosynthetic_smcog'),
         ('SMCOG1284', 'transcriptional regulator, MarR family', 'regulator'),
-        ('SMCOG1285', 'ferredoxin fdxC', 'other'),
-        ('SMCOG1286', 'Pentapeptide repeat protein', 'other'),
-        ('SMCOG1287', 'AraC family transcriptional regulator', 'regulator'),
-        ('SMCOG1288', 'ABC transporter related protein', 'transporter'),
-        ('SMCOG1289', 'hypothetical protein', 'other'),
-        ('SMCOG1290', 'conserved hypothetical transmembrane protein', 'transporter'),
-        ('SMCOG1291', 'argininosuccinate synthase', 'biosynthetic_smcog'),
-        ('SMCOG1292', 'hypothetical protein', 'other'),
-        ('SMCOG1293', 'aldehyde oxidase and xanthine dehydrogenase', 'biosynthetic_smcog'),
-        ('SMCOG1294', 'Nitrilase/cyanide hydratase and apolipoprotein', 'biosynthetic_smcog'),
-        ('SMCOG1295', 'Sel1 domain protein repeat-containing protein', 'other'),
-        ('SMCOG1296', 'tellurium resistance protein, TerD', 'other'),
-        ('SMCOG1297', 'Pullulanase, type I', 'biosynthetic_smcog'),
-        ('SMCOG1298', 'putative carboxymuconolactone decarboxylase', 'biosynthetic_smcog'),
-        ('SMCOG1299', 'chaperonin GroEL', 'other'),
-        ('SMCOG1300', 'hypothetical protein', 'other')
-    ) val ( name, description, functional_class_name )
-LEFT JOIN antismash.functional_classes f ON val.functional_class_name = f.name;
+
