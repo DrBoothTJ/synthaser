@@ -5,34 +5,12 @@ SMCOG1015 AraC family transcriptional regulator done
 SMCOG1016 LuxR family DNA-binding response regulator done
 SMCOG1030 serine/threonine protein kinase done
 SMCOG1031 LysR family transcriptional regulator done
-SMCOG1032 RNA polymerase, sigma-24 subunit, ECF subfamily
-
-        ('SMCOG1033', 'iron compound ABC transporter, periplasmic', 'transporter'),
-        ('SMCOG1034', 'cytochrome P450', 'biosynthetic_smcog'),
-        ('SMCOG1035', 'MMPL domain-containing transport protein', 'biosynthetic_smcog'),
-        ('SMCOG1036', 'alpha/beta hydrolase fold protein', 'biosynthetic_smcog'),
-        ('SMCOG1037', 'heavy metal translocating P-type ATPase', 'other'),
-        ('SMCOG1038', 'phenylalanine-specific permease', 'biosynthetic_smcog'),
-        ('SMCOG1039', 'aldo/keto reductase family oxidoreductase', 'biosynthetic_smcog'),
-        ('SMCOG1040', 'alcohol dehydrogenase', 'biosynthetic_smcog'),
-        ('SMCOG1041', 'transcriptional regulator, SARP family', 'regulator'),
-        ('SMCOG1042', 'O-methyltransferase', 'biosynthetic_smcog'),
-        ('SMCOG1043', 'hydroxymethylglutaryl-CoA synthase', 'biosynthetic_smcog'),
-        ('SMCOG1044', 'ABC transporter, permease protein', 'transporter'),
-        ('SMCOG1045', 'glycosyl transferase group 1', 'biosynthetic_smcog'),
-        ('SMCOG1046', 'Dioxygenase TauD/TfdA', 'biosynthetic_smcog'),
-        ('SMCOG1047', 'phosphopantetheine-binding domain-containing protein', 'biosynthetic_smcog'),
-        ('SMCOG1048', 'sensor histidine kinase', 'regulator'),
-        ('SMCOG1049', 'AcrB/AcrD/AcrF family protein', 'transporter'),
-        ('SMCOG1050', 'monooxygenase FAD-binding', 'biosynthetic_smcog'),
-        ('SMCOG1051', 'TonB-dependent siderophore receptor', 'transporter'),
-        ('SMCOG1052', 'Terpene synthase/cyclase metal-binding domain protein', 'biosynthetic_smcog'),
-        ('SMCOG1053', 'beta-lactamase', 'biosynthetic_smcog'),
-        ('SMCOG1054', 'hypothetical protein', 'other'),
-        ('SMCOG1055', 'pyruvate oxidase/decarboxylase', 'biosynthetic_smcog'),
-        ('SMCOG1056', 'DegT/DnrJ/EryC1/StrS aminotransferase', 'biosynthetic_smcog'),
-        ('SMCOG1057', 'TetR family transcriptional regulator', 'regulator'),
-        ('SMCOG1058', 'ArsR family transcriptional regulator', 'regulator'),
+SMCOG1032 RNA polymerase, sigma-24 subunit, ECF subfamily done 
+SMCOG1041 transcriptional regulator, SARP family done
+SMCOG1048 sensor histidine kinase done
+SMCOG1057 TetR family transcriptional regulator done
+ 
+       ('SMCOG1058', 'ArsR family transcriptional regulator', 'regulator'),
         ('SMCOG1059', 'acetyl-CoA carboxylase, carboxyl transferase,', 'biosynthetic_smcog'),
         ('SMCOG1060', '4''-phosphopantetheinyl transferase', 'biosynthetic_smcog'),
         ('SMCOG1061', 'methyl-accepting chemotaxis protein', 'other'),

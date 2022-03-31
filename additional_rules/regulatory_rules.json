@@ -1,6 +1,136 @@
 {
   "domains": [
     {
+      "uuid": "395a412c-93d0-4ee7-8028-206d92f83a02",
+      "name": "TetR C-terminal",
+      "domains": [
+        {
+          "pssm": 380054,
+          "accession": "pfam17920",
+          "name": "TetR_C_16",
+          "length": 107,
+          "bitscore": 66.0398,
+          "superfamily": "pfam17920",
+          "label": "TetR_C_16 [pfam17920]",
+          "value": "TetR_C_16"
+        },
+        {
+          "pssm": 390102,
+          "accession": "cl23808",
+          "name": "TetR_C_11",
+          "length": 0,
+          "label": "TetR_C_11 [cl23808]",
+          "value": "TetR_C_11"
+        },
+        {
+          "pssm": 379409,
+          "accession": "pfam13977",
+          "name": "TetR_C_6",
+          "length": 112,
+          "bitscore": 38.0324,
+          "superfamily": "cl23808",
+          "label": "TetR_C_6 [pfam13977]",
+          "value": "TetR_C_6"
+        },
+        {
+          "pssm": 380060,
+          "accession": "pfam17931",
+          "name": "TetR_C_23",
+          "length": 127,
+          "bitscore": 101.058,
+          "superfamily": "cl38974",
+          "label": "TetR_C_23 [pfam17931]",
+          "value": "TetR_C_23"
+        },
+        {
+          "pssm": 378136,
+          "accession": "pfam09209",
+          "name": "DUF1956",
+          "length": 124,
+          "bitscore": 84.2618,
+          "superfamily": "cl38972",
+          "label": "DUF1956 [pfam09209]",
+          "value": "DUF1956"
+        },
+        {
+          "pssm": 380061,
+          "accession": "pfam17932",
+          "name": "TetR_C_24",
+          "length": 113,
+          "bitscore": 70.6632,
+          "superfamily": "cl38973",
+          "label": "TetR_C_24 [pfam17932]",
+          "value": "TetR_C_24"
+        },
+        {
+          "pssm": 380064,
+          "accession": "pfam17938",
+          "name": "TetR_C_29",
+          "length": 119,
+          "bitscore": 47.0935,
+          "superfamily": "cl20555",
+          "label": "TetR_C_29 [pfam17938]",
+          "value": "TetR_C_29"
+        },
+        {
+          "pssm": 379522,
+          "accession": "pfam14246",
+          "name": "TetR_C_7",
+          "length": 117,
+          "bitscore": 79.1305,
+          "superfamily": "cl23808",
+          "label": "TetR_C_7 [pfam14246]",
+          "value": "TetR_C_7"
+        },
+        {
+          "pssm": 380066,
+          "accession": "pfam17940",
+          "name": "TetR_C_31",
+          "length": 105,
+          "bitscore": 29.8744,
+          "superfamily": "pfam17940",
+          "label": "TetR_C_31 [pfam17940]",
+          "value": "TetR_C_31"
+        },
+        {
+          "pssm": 380065,
+          "accession": "pfam17939",
+          "name": "TetR_C_30",
+          "length": 113,
+          "bitscore": 41.0734,
+          "superfamily": "cl38972",
+          "label": "TetR_C_30 [pfam17939]",
+          "value": "TetR_C_30"
+        },
+        {
+          "pssm": 375429,
+          "accession": "pfam17918",
+          "name": "TetR_C_15",
+          "length": 108,
+          "bitscore": 41.1129,
+          "superfamily": "cl38975",
+          "label": "TetR_C_15 [pfam17918]",
+          "value": "TetR_C_15"
+        }
+      ]
+    },
+    {
+      "uuid": "212cdc01-b2ab-4831-91ae-cb0e1aaf754e",
+      "name": "TetR N-terminal",
+      "domains": [
+        {
+          "pssm": 366102,
+          "accession": "pfam00440",
+          "name": "TetR_N",
+          "length": 47,
+          "bitscore": 37.3965,
+          "superfamily": "pfam00440",
+          "label": "TetR_N [pfam00440]",
+          "value": "TetR_N"
+        }
+      ]
+    },
+    {
       "uuid": "c5181a7d-394f-4198-bd56-0d3737c8603b",
       "name": "protease",
       "domains": [
@@ -761,6 +891,32 @@
         ]
       },
       {
+        "uuid": "212cdc01-b2ab-4831-91ae-cb0e1aaf754e",
+        "name": "HKinase/ATPase",
+        "domains": [
+          {
+            "pssm": 226951,
+            "accession": "COG4585",
+            "name": "COG4585",
+            "length": 365,
+            "bitscore": 139.929,
+            "superfamily": "COG4585",
+            "label": "COG4585 [COG4585]",
+            "value": "COG4585"
+          },
+          {
+            "pssm": 236945,
+            "accession": "PRK11644",
+            "name": "PRK11644",
+            "length": 495,
+            "bitscore": 622.768,
+            "superfamily": "PRK11644",
+            "label": "PRK11644 [PRK11644]",
+            "value": "PRK11644"
+          }
+        ]
+      },
+      {
         "uuid": "c3ece0eb-498f-4f49-b734-8d743221e790",
         "name": "EAP30",
         "domains": [
@@ -804,6 +960,30 @@
         }
   ],
   "rules": [
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518TET",
+      "name": "TetR-like",
+      "domains": [
+        "TetR N-terminal",
+        "TetR C-terminal"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 or 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518TET",
+      "name": "TetR",
+      "domains": [
+        "TetR N-terminal",
+        "TetR C-terminal"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518STK",
       "name": "Serine-threonine kinase",
@@ -891,12 +1071,13 @@
       "uuid": "a3436695-09d7-490f-acee-6d67a5186HIS",
       "name": "Histidine ATPase",
       "domains": [
-        "HATPase"
+        "HATPase",
+        "HKinase/ATPase"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0"
+      "evaluator": "0 or 1"
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a5186295",
@@ -904,12 +1085,13 @@
       "domains": [
         "HKinase",
         "HATPase",
+        "HKinase/ATPase",
         "REC"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 and 1 and 2"
+      "evaluator": "((0 and 1) or 2) and 3"
     },
 	{
       "uuid": "a3436695-09d7-490f-acee-6d67a5181111",
@@ -927,12 +1109,13 @@
       "name": "Two-component histidine kinase",
       "domains": [
         "HKinase",
-        "HATPase"
+        "HATPase",
+        "HKinase/ATPase"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 and 1"
+      "evaluator": "(0 and 1) or 2"
     },
     {
       "uuid": "352651f8-becd-4aba-8f5f-34fSIGMA70",
@@ -974,6 +1157,17 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "TetR-like",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
+      "children": [
+        {
+          "title": "TetR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
+          "children": []
+        }
+      ]
+	  },
     {
       "title": "SARP",
       "key": "352651f8-becd-4aba-8f5f-34f83f86SARP",
@@ -1022,6 +1216,22 @@
       "children": []
 	  },
     {
+      "title": "Histidine ATPase",
+      "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+      "children": [
+        {
+          "title": "Two-component histidine kinase",
+          "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
+          "children": []
+        },
+        {
+          "title": "Multi-component histidine kinase",
+          "key": "a3436695-09d7-490f-acee-6d67a5186295",
+          "children": []
+        }
+        ]
+    },
+    {
       "title": "Response regulator",
       "key": "a3436695-09d7-490f-acee-6d67a5181112",
       "children": [
@@ -1031,22 +1241,6 @@
             "children": []
           }
         ]
-    },
-    {
-    "title": "Histidine ATPase",
-    "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
-    "children": [
-      {
-        "title": "Two-component histidine kinase",
-        "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
-        "children": []
-      },
-      {
-        "title": "Multi-component histidine kinase",
-        "key": "a3436695-09d7-490f-acee-6d67a5186295",
-        "children": []
-      }
-      ]
-	}
+    }
   ]
 }
