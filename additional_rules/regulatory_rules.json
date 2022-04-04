@@ -1,11 +1,105 @@
 {
-  "domains": [
+  "domains": [  
+    {
+      "uuid": "79bd2fb8-5903-4c9c-abbc-62a397789e3a",
+      "name": "PBP3",
+      "domains": [
+        {
+          "pssm": 379150,
+          "accession": "pfam13377",
+          "name": "Peripla_BP_3",
+          "length": 161,
+          "bitscore": 56.5728,
+          "superfamily": "cl10011",
+          "label": "Peripla_BP_3 [pfam13377]",
+          "value": "Peripla_BP_3"
+        }
+      ]
+    },
+    {
+      "uuid": "79bd2fb8-5903-4c9c-abbc-62a397789e3a",
+      "name": "FCD",
+      "domains": [
+        {
+          "pssm": 214892,
+          "accession": "smart00895",
+          "name": "FCD",
+          "length": 123,
+          "bitscore": 28.0946,
+          "superfamily": "cl11656",
+          "label": "FCD [smart00895]",
+          "value": "FCD"
+        }
+      ]
+    },
+    {
+      "uuid": "f0d271d5-1e28-475f-8755-4e8637022aa0",
+      "name": "Rhodanase",
+      "domains": [
+        {
+          "pssm": 238089,
+          "accession": "cd00158",
+          "name": "RHOD",
+          "length": 89,
+          "bitscore": 37.279,
+          "superfamily": "cl00125",
+          "label": "RHOD [cd00158]",
+          "value": "RHOD"
+        },
+        {
+          "pssm": 223680,
+          "accession": "COG0607",
+          "name": "PspE",
+          "length": 110,
+          "bitscore": 39.5353,
+          "superfamily": "cl00125",
+          "label": "PspE [COG0607]",
+          "value": "PspE"
+        },
+        {
+          "pssm": 366179,
+          "accession": "pfam00581",
+          "name": "Rhodanese",
+          "length": 93,
+          "bitscore": 35.5285,
+          "superfamily": "cl00125",
+          "label": "Rhodanese [pfam00581]",
+          "value": "Rhodanese"
+        }
+      ]
+    },
+    {
+      "uuid": "0d2bd4f3-dc90-45b1-8d7c-f23be236a027",
+      "name": "ArsR",
+      "domains": [
+        {
+          "pssm": 238042,
+          "accession": "cd00090",
+          "name": "HTH_ARSR",
+          "length": 78,
+          "bitscore": 37.2782,
+          "superfamily": "cl21459",
+          "label": "HTH_ARSR [cd00090]",
+          "value": "HTH_ARSR"
+        },
+        {
+          "pssm": 223713,
+          "accession": "COG0640",
+          "name": "ArsR",
+          "length": 110,
+          "bitscore": 25.1645,
+          "superfamily": "cl21459",
+          "label": "ArsR [COG0640]",
+          "value": "ArsR"
+        }
+      ]
+      },
     {
       "uuid": "395a412c-93d0-4ee7-8028-206d92f83a02",
       "name": "TetR C-terminal",
       "domains": [
         {
-          "pssm": 380054,
+          "pssm ": 380054,
           "accession": "pfam17920",
           "name": "TetR_C_16",
           "length": 107,
@@ -575,6 +669,26 @@
           "value": "HTH"
         },
         {
+          "pssm": 143331,
+          "accession": "cd01392",
+          "name": "HTH_LacI",
+          "length": 52,
+          "bitscore": 35.8469,
+          "superfamily": "cl22854",
+          "label": "HTH_LacI [cd01392]",
+          "value": "HTH_LacI"
+        },
+        {
+          "pssm": 306791,
+          "accession": "pfam00356",
+          "name": "LacI",
+          "length": 46,
+          "bitscore": 54.5655,
+          "superfamily": "cl22854",
+          "label": "LacI [pfam00356]",
+          "value": "LacI"
+        },
+        {
           "pssm": 294013,
           "accession": "cd00383",
           "name": "trans_reg_C",
@@ -961,6 +1075,41 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
+      "name": "LacI-family regulator",
+      "domains": [
+        "HTH",
+        "PBP3"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
+      "name": "GntR-family regulator",
+      "domains": [
+        "HTH",
+        "FCD"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
+      "name": "ArsR repressor",
+      "domains": [
+        "ArsR"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518TET",
       "name": "TetR-like",
       "domains": [
@@ -1157,6 +1306,21 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "LacI-family regulator",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGNTR",
+      "children": []
+	  },
+    {
+      "title": "GntR-family regulator",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGNTR",
+      "children": []
+	  },
+    {
+      "title": "ArsR repressor",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SARSP",
+      "children": []
+	  },
     {
       "title": "TetR-like",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
