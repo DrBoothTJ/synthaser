@@ -12,12 +12,10 @@ SMCOG1057 TetR family transcriptional regulator done
 SMCOG1058 ArsR family transcriptional regulator done
 SMCOG1071 GntR family transcriptional regulator done
 SMCOG1078 LacI family transcription regulator done
-SMCOG1112 sigma-54 dependent trancsriptional regulator ...
-        ('SMCOG1120', 'AsnC family transcriptional regulator', 'regulator'),
-        ('SMCOG1121', 'dioxygenase, TauD/TfdA', 'biosynthetic_smcog'),
-        ('SMCOG1122', 'ATP-dependent RNA helicase', 'other'),
-        ('SMCOG1123', 'polyprenol-monophosphomannose synthase ppm1', 'biosynthetic_smcog'),
-        ('SMCOG1124', 'acetyl-CoA acetyltransferase', 'biosynthetic_smcog'),
+SMCOG1112 sigma-54 dependent trancsriptional regulator done
+SMCOG1120 AsnC family transcriptional regulator ...
+        
+
         ('SMCOG1125', 'LysR family transcriptional regulator', 'regulator'),
         ('SMCOG1126', 'extracytoplasmic-function sigma-70 factor', 'regulator'),
         ('SMCOG1127', 'condensation domain-containing protein', 'biosynthetic_smcog'),
@@ -172,11 +170,6 @@ SMCOG1112 sigma-54 dependent trancsriptional regulator ...
         ('SMCOG1276', 'PfkB domain protein', 'biosynthetic_smcog'),
         ('SMCOG1277', 'Radical SAM domain protein', 'other'),
         ('SMCOG1278', 'PadR family transcriptional regulator', 'regulator'),
-        ('SMCOG1279', 'pseudouridine synthase', 'biosynthetic_smcog'),
-        ('SMCOG1280', 'thiamine-phosphate pyrophosphorylase', 'biosynthetic_smcog'),
-        ('SMCOG1281', 'IS407A, transposase OrfA', 'other'),
-        ('SMCOG1282', 'extracellular ligand-binding receptor', 'transporter'),
-        ('SMCOG1283', '2`,3`-cyclic-nucleotide 2`-phosphodiesterase', 'biosynthetic_smcog'),
         ('SMCOG1284', 'transcriptional regulator, MarR family', 'regulator'),
 
 Finally, check and reassess hierarchy

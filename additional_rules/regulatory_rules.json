@@ -1,6 +1,22 @@
 {
   "domains": [  
     {
+      "uuid": "338e70e2-8e7e-490e-b0c5-99bf52dc4b76",
+      "name": "Sigma 54",
+      "domains": [
+        {
+          "pssm": 333886,
+          "accession": "pfam00158",
+          "name": "Sigma54_activat",
+          "length": 168,
+          "bitscore": 183.366,
+          "superfamily": "cl38936",
+          "label": "Sigma54_activat [pfam00158]",
+          "value": "Sigma54_activat"
+        }
+      ]
+    },
+    {
       "uuid": "79bd2fb8-5903-4c9c-abbc-62a397789e3a",
       "name": "PBP3",
       "domains": [
@@ -1075,6 +1091,29 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518S54",
+      "name": "Sigma 54",
+      "domains": [
+        "Sigma 54"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a51NDAB",
+      "name": "Sigma 54 DNA-binding regulator",
+      "domains": [
+        "Sigma 54",
+        "HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
       "name": "LacI-family regulator",
       "domains": [
@@ -1307,8 +1346,19 @@
   ],
   "hierarchy": [
     {
+      "title": "Sigma 54",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGSSS",
+      "children": [
+      {
+        "title": "Sigma 54 DNA-binding regulator",
+        "key": "352651f8-becd-4aba-8f5f-34f8Df86SGSSS",
+        "children": []
+      }
+      ]
+	  },
+    {
       "title": "LacI-family regulator",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGNTR",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGLLL",
       "children": []
 	  },
     {
