@@ -13,22 +13,15 @@ SMCOG1058 ArsR family transcriptional regulator done
 SMCOG1071 GntR family transcriptional regulator done
 SMCOG1078 LacI family transcription regulator done
 SMCOG1112 sigma-54 dependent trancsriptional regulator done
-SMCOG1120 AsnC family transcriptional regulator ...
-        
+SMCOG1120 AsnC family transcriptional regulator done
+SMCOG1125 LysR family transcriptional regulator done
+SMCOG1126 extracytoplasmic-function sigma-70 factor done
+SMCOG1133 Transcription regulator crp regulator done
 
-        ('SMCOG1125', 'LysR family transcriptional regulator', 'regulator'),
-        ('SMCOG1126', 'extracytoplasmic-function sigma-70 factor', 'regulator'),
-        ('SMCOG1127', 'condensation domain-containing protein', 'biosynthetic_smcog'),
-        ('SMCOG1128', 'cyclase/dehydrase', 'biosynthetic_smcog'),
-        ('SMCOG1129', 'acyl carrier protein', 'biosynthetic_smcog'),
-        ('SMCOG1130', 'transposase', 'other'),
-        ('SMCOG1131', 'major facilitator transporter', 'transporter'),
-        ('SMCOG1132', 'DNA-binding protein HU 1', 'other'),
-        ('SMCOG1133', 'Transcription regulator, crp', 'regulator'),
-        ('SMCOG1134', 'flavodoxin', 'biosynthetic_smcog'),
         ('SMCOG1135', 'MarR family transcriptional regulator', 'regulator'),
         ('SMCOG1136', 'GntR family transcriptional regulator', 'regulator'),
-        ('SMCOG1137', 'Major facilitator superfamily MFS 1', 'transporter'),
+
+
         ('SMCOG1138', 'FAD linked oxidase domain protein', 'biosynthetic_smcog'),
         ('SMCOG1139', 'aminotransferase class V', 'biosynthetic_smcog'),
         ('SMCOG1140', 'Lanthionine synthetase C family protein', 'biosynthetic_smcog'),

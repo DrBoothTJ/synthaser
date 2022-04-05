@@ -1,6 +1,72 @@
 {
   "domains": [  
     {
+      "uuid": "c94888ff-5822-4518-b6dc-d515dda1cacc",
+      "name": "RIIa",
+      "domains": [
+        {
+          "pssm": 334843,
+          "accession": "pfam02197",
+          "name": "RIIa",
+          "length": 38,
+          "bitscore": 53.1021,
+          "superfamily": "cl02594",
+          "label": "RIIa [pfam02197]",
+          "value": "RIIa"
+        }
+      ]
+    },
+    {
+      "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
+      "name": "CRP",
+      "domains": [
+        {
+          "pssm": 237999,
+          "accession": "cd00038",
+          "name": "CAP_ED",
+          "length": 115,
+          "bitscore": 43.0834,
+          "superfamily": "cl00047",
+          "label": "CAP_ED [cd00038]",
+          "value": "CAP_ED"
+        },
+        {
+          "pssm": 197516,
+          "accession": "smart00100",
+          "name": "cNMP",
+          "length": 120,
+          "bitscore": 43.1583,
+          "superfamily": "cl00047",
+          "label": "cNMP [smart00100]",
+          "value": "cNMP"
+        },
+        {
+          "pssm": 365819,
+          "accession": "pfam00027",
+          "name": "cNMP_binding",
+          "length": 83,
+          "bitscore": 36.8159,
+          "superfamily": "cl00047",
+          "label": "cNMP_binding [pfam00027]",
+          "value": "cNMP_binding"
+        }
+      ]
+    },
+    {
+      "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
+      "name": "AsnC ligand binding domain",
+      "domains": [
+        {
+          "pssm": 392232,
+          "accession": "cl29894",
+          "name": "AsnC_trans_reg",
+          "length": 0,
+          "label": "AsnC_trans_reg [cl29894]",
+          "value": "AsnC_trans_reg"
+        }
+      ]
+    },
+    {
       "uuid": "338e70e2-8e7e-490e-b0c5-99bf52dc4b76",
       "name": "Sigma 54",
       "domains": [
@@ -13,6 +79,32 @@
           "superfamily": "cl38936",
           "label": "Sigma54_activat [pfam00158]",
           "value": "Sigma54_activat"
+        }
+      ]
+    },
+    {
+      "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
+      "name": "HTH AsnC",
+      "domains": [
+        {
+          "pssm": 379172,
+          "accession": "pfam13412",
+          "name": "HTH_24",
+          "length": 45,
+          "bitscore": 27.3986,
+          "superfamily": "cl21459",
+          "label": "HTH_24 [pfam13412]",
+          "value": "HTH_24"
+        },
+        {
+          "pssm": 379167,
+          "accession": "pfam13404",
+          "name": "HTH_AsnC-type",
+          "length": 41,
+          "bitscore": 33.0854,
+          "superfamily": "cl21459",
+          "label": "HTH_AsnC-type [pfam13404]",
+          "value": "HTH_AsnC-type"
         }
       ]
     },
@@ -677,6 +769,16 @@
       "name": "HTH",
       "domains": [
         {
+          "pssm": 365891,
+          "accession": "pfam00126",
+          "name": "HTH_1",
+          "length": 60,
+          "bitscore": 28.4921,
+          "superfamily": "cl21459",
+          "label": "HTH_1 [pfam00126]",
+          "value": "HTH_1"
+        },
+        {
           "pssm": 389747,
           "accession": "cl21459",
           "name": "HTH",
@@ -1091,6 +1193,52 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518CRP",
+      "name": "CRP-like",
+      "domains": [
+        "CRP"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518CRP",
+      "name": "CRP",
+      "domains": [
+        "HTH",
+        "CRP"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518S54",
+      "name": "AsnC",
+      "domains": [
+        "HTH AsnC",
+        "AsnC ligand binding domain"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518S54",
+      "name": "AsnC-like",
+      "domains": [
+        "AsnC ligand binding domain"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518S54",
       "name": "Sigma 54",
       "domains": [
@@ -1345,6 +1493,28 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "CRP-like",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
+      "children": [
+        {
+          "title": "CRP",
+          "key": "352651f8-becd-4aba-8f5f-34f83f111ASNC",
+          "children": []
+        }
+      ]
+	  },
+    {
+      "title": "AsnC-like",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
+      "children": [
+        {
+          "title": "AsnC",
+          "key": "352651f8-becd-4aba-8f5f-34f83f111ASNC",
+          "children": []
+        }
+      ]
+	  },
     {
       "title": "Sigma 54",
       "key": "352651f8-becd-4aba-8f5f-34f83f86SGSSS",
