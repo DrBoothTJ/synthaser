@@ -17,40 +17,10 @@ SMCOG1120 AsnC family transcriptional regulator done
 SMCOG1125 LysR family transcriptional regulator done
 SMCOG1126 extracytoplasmic-function sigma-70 factor done
 SMCOG1133 Transcription regulator crp regulator done
+SMCOG1135 MarR family transcriptional regulator done
+SMCOG1136 GntR family transcriptional regulator done
 
-        ('SMCOG1135', 'MarR family transcriptional regulator', 'regulator'),
-        ('SMCOG1136', 'GntR family transcriptional regulator', 'regulator'),
-
-
-        ('SMCOG1138', 'FAD linked oxidase domain protein', 'biosynthetic_smcog'),
-        ('SMCOG1139', 'aminotransferase class V', 'biosynthetic_smcog'),
-        ('SMCOG1140', 'Lanthionine synthetase C family protein', 'biosynthetic_smcog'),
-        ('SMCOG1141', 'acyltransferase', 'biosynthetic_smcog'),
-        ('SMCOG1142', 'PPE family protein', 'other'),
-        ('SMCOG1143', 'sugar-binding lipoprotein', 'biosynthetic_smcog'),
-        ('SMCOG1144', 'thioesterase superfamily protein', 'biosynthetic_smcog'),
-        ('SMCOG1145', 'Glucose-specific phosphotransferase enzyme IIA', 'biosynthetic_smcog'),
-        ('SMCOG1146', 'sugar transferase', 'biosynthetic_smcog'),
-        ('SMCOG1147', 'putative acyl carrier protein', 'biosynthetic_smcog'),
-        ('SMCOG1148', 'hypothetical protein', 'other'),
         ('SMCOG1149', 'LuxR family transcriptional regulator', 'regulator'),
-        ('SMCOG1150', 'isoprenylcysteine carboxyl methyltransferase', 'biosynthetic_smcog'),
-        ('SMCOG1151', 'transposase', 'other'),
-        ('SMCOG1152', 'nucleotide sugar dehydrogenase', 'biosynthetic_smcog'),
-        ('SMCOG1153', 'Amino acid carrier protein', 'biosynthetic_smcog'),
-        ('SMCOG1154', 'Pseudouridine synthase', 'biosynthetic_smcog'),
-        ('SMCOG1155', 'Lantibiotic dehydratase domain protein', 'biosynthetic_smcog'),
-        ('SMCOG1156', 'Chloramphenicol acetyltransferase', 'biosynthetic_smcog'),
-        ('SMCOG1157', 'hypothetical protein', 'other'),
-        ('SMCOG1158', 'ornithine cyclodeaminase', 'biosynthetic_smcog'),
-        ('SMCOG1159', 'dihydropteridine reductase', 'biosynthetic_smcog'),
-        ('SMCOG1160', 'flavin reductase domain protein FMN-binding', 'biosynthetic_smcog'),
-        ('SMCOG1161', 'oxidoreductase', 'biosynthetic_smcog'),
-        ('SMCOG1162', 'threonyl-tRNA synthetase', 'other'),
-        ('SMCOG1163', 'rhodanese domain-containing protein', 'biosynthetic_smcog'),
-        ('SMCOG1164', 'transposase IS3/IS911 family protein', 'other'),
-        ('SMCOG1165', 'carboxylate-amine ligase', 'biosynthetic_smcog'),
-        ('SMCOG1166', 'transporter, EamA family', 'transporter'),
         ('SMCOG1167', 'transcriptional regulator', 'regulator'),
         ('SMCOG1168', 'O-succinylhomoserine sulfhydrylase', 'biosynthetic_smcog'),
         ('SMCOG1169', 'sugar transport protein', 'transporter'),
@@ -166,5 +136,5 @@ SMCOG1133 Transcription regulator crp regulator done
         ('SMCOG1284', 'transcriptional regulator, MarR family', 'regulator'),
 
 Finally, check and reassess hierarchy
-Parse out HTH?
+Parse out HTH? Or unclassify proteins with just the HTH (except special cases)
 

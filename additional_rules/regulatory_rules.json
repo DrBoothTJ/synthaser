@@ -1,6 +1,48 @@
 {
   "domains": [  
     {
+      "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
+      "name": "UTRA",
+      "domains": [
+        {
+          "pssm": 369472,
+          "accession": "pfam07702",
+          "name": "UTRA",
+          "length": 141,
+          "bitscore": 79.5606,
+          "superfamily": "cl22899",
+          "label": "UTRA [pfam07702]",
+          "value": "UTRA"
+        }
+      ]
+    },
+    {
+      "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
+      "name": "HTH MarR",
+      "domains": [
+        {
+          "pssm": 197670,
+          "accession": "smart00347",
+          "name": "HTH_MARR",
+          "length": 101,
+          "bitscore": 74.5527,
+          "superfamily": "cl21459",
+          "label": "HTH_MARR [smart00347]",
+          "value": "HTH_MARR"
+        },
+        {
+          "pssm": 378956,
+          "accession": "pfam12802",
+          "name": "MarR_2",
+          "length": 59,
+          "bitscore": 27.9154,
+          "superfamily": "cl21459",
+          "label": "MarR_2 [pfam12802]",
+          "value": "MarR_2"
+        }
+      ]
+    },
+    {
       "uuid": "c94888ff-5822-4518-b6dc-d515dda1cacc",
       "name": "RIIa",
       "domains": [
@@ -1193,6 +1235,17 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518MAR",
+      "name": "MarR",
+      "domains": [
+        "HTH MarR"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518CRP",
       "name": "CRP-like",
       "domains": [
@@ -1278,12 +1331,13 @@
       "name": "GntR-family regulator",
       "domains": [
         "HTH",
-        "FCD"
+        "FCD",
+        "UTRA"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 and 1"
+      "evaluator": "0 and (1 or 2)"
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
@@ -1493,6 +1547,11 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "MarR",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+      "children": []
+	  },
     {
       "title": "CRP-like",
       "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
