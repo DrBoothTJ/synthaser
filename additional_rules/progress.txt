@@ -24,16 +24,16 @@ SMCOG1167 transcriptional regulator done
 SMCOG1171 transcriptional regulator MerR family done
 SMCOG1195 IclR family transcriptional regulator 
 SMCOG1197 autoinducer-binding transcriptional regulator done
-SMCOG1201 response regulator regulator ...
+SMCOG1201 response regulator regulator done
+SMCOG1215 TetR family transcriptional regulator done 
+SMCOG1239 TetR family transcriptional regulator done
+SMCOG1255 cold-shock DNA-binding domain protein done 
+SMCOG1260 AraC family transcriptional regulator regulator done
 
-SMCOG1215 TetR family transcriptional regulator
-SMCOG1239 TetR family transcriptional regulator
-SMCOG1255 cold-shock DNA-binding domain protein
-SMCOG1260 AraC family transcriptional regulator regulator
 SMCOG1278 PadR family transcriptional regulator regulator
 SMCOG1284 transcriptional regulator, MarR family regulator
 
 Finally, check and reassess hierarchy
 Parse out HTH!!! Not many just check unmarked HTH. Add to the hierarchy DNA-binding'?
-Go through every smcog again and reclassify groups.
+Go through every smcog again and reclassify groups. Specifically LALs/AraCs (subgroups!)/LysR
 

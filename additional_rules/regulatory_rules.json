@@ -1,6 +1,90 @@
 {
   "domains": [
     {
+      "uuid": "a4152328-dd1e-48d7-a072-420cfa026656",
+      "name": "GATase",
+      "domains": [
+        {
+          "pssm": 153231,
+          "accession": "cd03137",
+          "name": "GATase1_AraC_1",
+          "length": 187,
+          "bitscore": 164.211,
+          "superfamily": "cl00020",
+          "label": "GATase1_AraC_1 [cd03137]",
+          "value": "GATase1_AraC_1"
+        },
+        {
+          "pssm": 381760,
+          "accession": "cl00020",
+          "name": "GAT_1",
+          "length": 0,
+          "label": "GAT_1 [cl00020]",
+          "value": "GAT_1"
+        }
+      ]
+    },
+    {
+      "uuid": "055de8af-750f-4385-98f7-61623d0e6194",
+      "name": "AraC HTH",
+      "domains": [
+        {
+          "pssm": 378964,
+          "accession": "pfam12833",
+          "name": "HTH_18",
+          "length": 81,
+          "bitscore": 44.1093,
+          "superfamily": "pfam12833",
+          "label": "HTH_18 [pfam12833]",
+          "value": "HTH_18"
+        },
+        {
+          "pssm": 197666,
+          "accession": "smart00342",
+          "name": "HTH_ARAC",
+          "length": 84,
+          "bitscore": 64.1113,
+          "superfamily": "smart00342",
+          "label": "HTH_ARAC [smart00342]",
+          "value": "HTH_ARAC"
+        }
+      ]
+    },
+    {
+      "uuid": "a2950029-0dce-481a-9827-b3917d6a07fc",
+      "name": "CSP",
+      "domains": [
+        {
+          "pssm": 239905,
+          "accession": "cd04458",
+          "name": "CSP_CDS",
+          "length": 65,
+          "bitscore": 44.877,
+          "superfamily": "cl09927",
+          "label": "CSP_CDS [cd04458]",
+          "value": "CSP_CDS"
+        },
+        {
+          "pssm": 214633,
+          "accession": "smart00357",
+          "name": "CSP",
+          "length": 64,
+          "bitscore": 44.8971,
+          "superfamily": "cl09927",
+          "label": "CSP [smart00357]",
+          "value": "CSP"
+        },
+        {
+          "pssm": 385635,
+          "accession": "cl09927",
+          "name": "S1_like",
+          "length": 0,
+          "label": "S1_like [cl09927]",
+          "value": "S1_like"
+        }
+      ]
+    },
+    {
       "uuid": "f7f17219-5ebc-4b80-b91e-29f0a44351ac",
       "name": "CheW",
       "domains": [
@@ -488,6 +572,26 @@
       "uuid": "395a412c-93d0-4ee7-8028-206d92f83a02",
       "name": "TetR C-terminal",
       "domains": [
+        {
+          "pssm": 379115,
+          "accession": "pfam13305",
+          "name": "WHG",
+          "length": 102,
+          "bitscore": 30.3162,
+          "superfamily": "cl38988",
+          "label": "WHG [pfam13305]",
+          "value": "WHG"
+        },
+        {
+          "pssm": 367243,
+          "accession": "pfam02909",
+          "name": "TetR_C",
+          "length": 144,
+          "bitscore": 120.577,
+          "superfamily": "cl38988",
+          "label": "TetR_C [pfam02909]",
+          "value": "TetR_C"
+        },
         {
           "pssm": 380002,
           "accession": "pfam17754",
@@ -1117,26 +1221,6 @@
           "superfamily": "cl21459",
           "label": "Trans_reg_C [smart00862]",
           "value": "Trans_reg_C"
-        },
-        {
-          "pssm": 378964,
-          "accession": "pfam12833",
-          "name": "HTH_18",
-          "length": 81,
-          "bitscore": 44.1093,
-          "superfamily": "pfam12833",
-          "label": "HTH_18 [pfam12833]",
-          "value": "HTH_18"
-        },
-        {
-          "pssm": 197666,
-          "accession": "smart00342",
-          "name": "HTH_ARAC",
-          "length": 84,
-          "bitscore": 64.1113,
-          "superfamily": "smart00342",
-          "label": "HTH_ARAC [smart00342]",
-          "value": "HTH_ARAC"
         }
       ]
     },
@@ -1485,6 +1569,17 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ISCSP",
+      "name": "Cold shock protein",
+      "domains": [
+        "CSP"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ICLR",
       "name": "LuxR-like",
       "domains": [
@@ -1768,14 +1863,15 @@
       "uuid": "a3436695-09d7-490f-acee-6d67a518CUP",
       "name": "AraC regulator",
       "domains": [
-        "HTH",
+        "AraC HTH",
         "Cupin",
-        "AraC E"
+        "AraC E",
+        "GATase"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 and (1 or 2)"
+      "evaluator": "0 and (1 or 2 or 3)"
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518PBP",
@@ -1902,6 +1998,11 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "Cold shock protein",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+      "children": []
+    },
     {
       "title": "LuxR-like",
       "key": "352651f8-becd-4aba-8f5f-34f83f86ILRL",
