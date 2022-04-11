@@ -1,5 +1,245 @@
 {
-  "domains": [  
+  "domains": [
+    {
+      "uuid": "f7f17219-5ebc-4b80-b91e-29f0a44351ac",
+      "name": "CheW",
+      "domains": [
+        {
+          "pssm": 223905,
+          "accession": "COG0835",
+          "name": "CheW",
+          "length": 165,
+          "bitscore": 89.6619,
+          "superfamily": "cl00256",
+          "label": "CheW [COG0835]",
+          "value": "CheW"
+        },
+        {
+          "pssm": 381904,
+          "accession": "cl00256",
+          "name": "CheW_like",
+          "length": 0,
+          "label": "CheW_like [cl00256]",
+          "value": "CheW_like"
+        }
+      ]
+    },
+    {
+      "uuid": "7171d557-9626-43b3-b8d0-9b574e96af10",
+      "name": "LuxR HTH",
+      "domains": [
+        {
+          "pssm": 197715,
+          "accession": "smart00421",
+          "name": "HTH_LUXR",
+          "length": 58,
+          "bitscore": 47.907,
+          "superfamily": "cl21459",
+          "label": "HTH_LUXR [smart00421]",
+          "value": "HTH_LUXR"
+        },
+        {
+          "pssm": 99777,
+          "accession": "cd06170",
+          "name": "LuxR_C_like",
+          "length": 57,
+          "bitscore": 47.5292,
+          "superfamily": "cl21459",
+          "label": "LuxR_C_like [cd06170]",
+          "value": "LuxR_C_like"
+        },
+        {
+          "pssm": 225360,
+          "accession": "COG2771",
+          "name": "CsgD",
+          "length": 65,
+          "bitscore": 28.8603,
+          "superfamily": "cl21459",
+          "label": "CsgD [COG2771]",
+          "value": "CsgD"
+        }
+      ]
+    },
+    {
+      "uuid": "7c24190e-a5ce-4a7b-bd0c-eb53a9c2db87",
+      "name": "Autoinducer Binding",
+      "domains": [
+        {
+          "pssm": 377050,
+          "accession": "pfam03472",
+          "name": "Autoind_bind",
+          "length": 148,
+          "bitscore": 62.3909,
+          "superfamily": "pfam03472",
+          "label": "Autoind_bind [pfam03472]",
+          "value": "Autoind_bind"
+        }
+      ]
+    },
+    {
+      "uuid": "f3d40090-4fad-45c2-bc87-77c917943d9d",
+      "name": "IclR C-Terminal Domain",
+      "domains": [
+        {
+          "pssm": 334611,
+          "accession": "pfam01614",
+          "name": "IclR",
+          "length": 129,
+          "bitscore": 69.2282,
+          "superfamily": "pfam01614",
+          "label": "IclR [pfam01614]",
+          "value": "IclR"
+        }
+      ]
+    },    
+    {
+      "uuid": "e004b721-e1bb-414e-814b-7f44baa94949",
+      "name": "IclR HTH",
+      "domains": [
+        {
+          "pssm": 214629,
+          "accession": "smart00346",
+          "name": "HTH_ICLR",
+          "length": 91,
+          "bitscore": 83.0181,
+          "superfamily": "cl21459",
+          "label": "HTH_ICLR [smart00346]",
+          "value": "HTH_ICLR"
+        },
+        {
+          "pssm": 370445,
+          "accession": "pfam09339",
+          "name": "HTH_IclR",
+          "length": 51,
+          "bitscore": 44.6887,
+          "superfamily": "cl21459",
+          "label": "HTH_IclR [pfam09339]",
+          "value": "HTH_IclR"
+        }
+      ]
+    },
+    {
+      "uuid": "54ebd98c-a6d8-4b3a-ad2f-f078d2c9174f",
+      "name": "TipAS",
+      "domains": [
+        {
+          "pssm": 377906,
+          "accession": "pfam07739",
+          "name": "TipAS",
+          "length": 117,
+          "bitscore": 37.5563,
+          "superfamily": "pfam07739",
+          "label": "TipAS [pfam07739]",
+          "value": "TipAS"
+        }
+      ]
+    },
+    {
+      "uuid": "8b6b086c-aa97-48e2-ae1c-5fb881cf7cec",
+      "name": "MT",
+      "domains": [
+        {
+          "pssm": 388410,
+          "accession": "cl17173",
+          "name": "AdoMet_MTases",
+          "length": 0,
+          "label": "AdoMet_MTases [cl17173]",
+          "value": "AdoMet_MTases"
+        }
+      ]
+    },
+    {
+      "uuid": "b1fd0578-b66d-4887-affa-6723746ad0da",
+      "name": "AraC E",
+      "domains": [
+        {
+          "pssm": 214874,
+          "accession": "smart00871",
+          "name": "AraC_E_bind",
+          "length": 158,
+          "bitscore": 36.3004,
+          "superfamily": "cl01368",
+          "label": "AraC_E_bind [smart00871]",
+          "value": "AraC_E_bind"
+        },
+        {
+          "pssm": 336409,
+          "accession": "pfam06445",
+          "name": "GyrI-like",
+          "length": 153,
+          "bitscore": 54.3405,
+          "superfamily": "cl01368",
+          "label": "GyrI-like [pfam06445]",
+          "value": "GyrI-like"
+        }
+      ]
+    },
+    {
+      "uuid": "0140498c-47b9-4f1d-8d06-e82a0c837245",
+      "name": "MerR HTH",
+      "domains": [
+        {
+          "pssm": 197716,
+          "accession": "smart00422",
+          "name": "HTH_MERR",
+          "length": 70,
+          "bitscore": 60.6117,
+          "superfamily": "cl02600",
+          "label": "HTH_MERR [smart00422]",
+          "value": "HTH_MERR"
+        },
+        {
+          "pssm": 379171,
+          "accession": "pfam13411",
+          "name": "MerR_1",
+          "length": 69,
+          "bitscore": 32.1437,
+          "superfamily": "cl02600",
+          "label": "MerR_1 [pfam13411]",
+          "value": "MerR_1"
+        },
+        {
+          "pssm": 383042,
+          "accession": "cl02600",
+          "name": "HTH_MerR-SF",
+          "length": 0,
+          "label": "HTH_MerR-SF [cl02600]",
+          "value": "HTH_MerR-SF"
+        }
+      ]
+    },
+    {
+      "uuid": "ebba6972-3ee9-4233-87b9-0adf2dbea0b1",
+      "name": "SCP2",
+      "domains": [
+        {
+          "pssm": 376720,
+          "accession": "pfam02036",
+          "name": "SCP2",
+          "length": 100,
+          "bitscore": 50.6916,
+          "superfamily": "cl01225",
+          "label": "SCP2 [pfam02036]",
+          "value": "SCP2"
+        }
+      ]
+    },
+    {
+      "uuid": "7243c69b-28ea-4591-b34e-628053787c8e",
+      "name": "HxlR HTH",
+      "domains": [
+        {
+          "pssm": 224647,
+          "accession": "COG1733",
+          "name": "HxlR",
+          "length": 120,
+          "bitscore": 44.6639,
+          "superfamily": "cl21459",
+          "label": "HxlR [COG1733]",
+          "value": "HxlR"
+        }
+      ]
+    },
     {
       "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
       "name": "UTRA",
@@ -248,6 +488,16 @@
       "uuid": "395a412c-93d0-4ee7-8028-206d92f83a02",
       "name": "TetR C-terminal",
       "domains": [
+        {
+          "pssm": 380002,
+          "accession": "pfam17754",
+          "name": "TetR_C_14",
+          "length": 112,
+          "bitscore": 64.5565,
+          "superfamily": "pfam17754",
+          "label": "TetR_C_14 [pfam17754]",
+          "value": "TetR_C_14"
+        },
         {
           "pssm ": 380054,
           "accession": "pfam17920",
@@ -1235,6 +1485,87 @@
   ],
   "rules": [
     {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ICLR",
+      "name": "LuxR-like",
+      "domains": [
+        "LuxR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ICLR",
+      "name": "LuxR",
+      "domains": [
+        "Autoinducer Binding",
+        "LuxR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ICLR",
+      "name": "IclR",
+      "domains": [
+        "IclR HTH",
+        "IclR C-Terminal Domain"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ICLL",
+      "name": "IclR-like",
+      "domains": [
+        "IclR HTH",
+        "IclR C-Terminal Domain"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 or 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518MERR",
+      "name": "MerR",
+      "domains": [
+        "MerR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a522HxlR",
+      "name": "HxlR sterol binding",
+      "domains": [
+        "HxlR HTH",
+        "SCP2"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518HxlR",
+      "name": "HxlR",
+      "domains": [
+        "HxlR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
       "uuid": "a3436695-09d7-490f-acee-6d67a518MAR",
       "name": "MarR",
       "domains": [
@@ -1410,10 +1741,22 @@
       "evaluator": "0 and 1"
     },
     {
-      "uuid": "a3436695-09d7-490f-acee-6d67a518LAL",
-      "name": "LAL regulator",
+      "uuid": "a3436695-09d7-490f-acee-6d67a518HAL",
+      "name": "DNA binding ATPase",
       "domains": [
         "HTH",
+        "ATPase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518LAL",
+      "name": "LAL",
+      "domains": [
+        "LuxR HTH",
         "ATPase"
       ],
       "filters": [],
@@ -1426,12 +1769,13 @@
       "name": "AraC regulator",
       "domains": [
         "HTH",
-        "Cupin"
+        "Cupin",
+        "AraC E"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 and 1"
+      "evaluator": "0 and (1 or 2)"
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518PBP",
@@ -1451,6 +1795,18 @@
       "domains": [
         "REC",
         "HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518HTH1",
+      "name": "CitB",
+      "domains": [
+        "REC",
+        "LuxR HTH"
       ],
       "filters": [],
       "renames": [],
@@ -1529,8 +1885,7 @@
       "renames": [],
       "children": [],
       "evaluator": "0 and 1"
-    },
-    
+    }, 
     {
       "uuid": "352651f8-becd-4aba-8f5f-34f83f8672NB",
       "name": "Nucleotide-binding SARP",
@@ -1547,6 +1902,53 @@
     }
   ],
   "hierarchy": [
+    {
+      "title": "LuxR-like",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86ILRL",
+      "children": [
+      {
+        "title": "LuxR",
+        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+        "children": []
+      },
+      {
+        "title": "CitB",
+        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+        "children": []
+      },
+      {
+        "title": "LAL",
+        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+        "children": []
+      }
+      ]
+	  },   
+    {
+      "title": "IclR",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86ICLR",
+      "children": []
+	  },   
+    {
+      "title": "IclR-like",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SICLRR",
+      "children": []
+    },
+    {
+      "title": "MerR",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+      "children": []
+	  },
+    {
+      "title": "HxlR",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+      "children": [
+        {
+        "title": "HxlR sterol binding",
+        "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+        "children": []
+      }
+      ]
+    },
     {
       "title": "MarR",
       "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
@@ -1644,7 +2046,7 @@
       ]
 	  },
     {
-      "title": "LAL regulator",
+      "title": "DNA binding ATPase",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
       "children": []
 	  },
