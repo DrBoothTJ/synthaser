@@ -1,6 +1,84 @@
 {
   "domains": [
     {
+      "uuid": "73ee4cfd-b840-4a43-931f-065d8bfba2de",
+      "name": "GntR HTH",
+      "domains": [
+        {
+          "pssm": 153418,
+          "accession": "cd07377",
+          "name": "WHTH_GntR",
+          "length": 66,
+          "bitscore": 58.6128,
+          "superfamily": "cl21459",
+          "label": "WHTH_GntR [cd07377]",
+          "value": "WHTH_GntR"
+        }
+      ]
+    },
+    {
+      "uuid": "245bb106-071c-4aa8-94a1-63b1c3362200",
+      "name": "Glycosyl hydrolase",
+      "domains": [
+        {
+          "pssm": 390048,
+          "accession": "cl23725",
+          "name": "Glyco_hydro",
+          "length": 0,
+          "label": "Glyco_hydro [cl23725]",
+          "value": "Glyco_hydro"
+        }
+      ]
+    },
+    {
+      "uuid": "0f28b75f-f734-40cc-a797-48fb98101a06",
+      "name": "PocR",
+      "domains": [
+        {
+          "pssm": 378400,
+          "accession": "pfam10114",
+          "name": "PocR",
+          "length": 162,
+          "bitscore": 76.069,
+          "superfamily": "cl19879",
+          "label": "PocR [pfam10114]",
+          "value": "PocR"
+        }
+      ]
+    },
+    {
+      "uuid": "ecdc9449-fe9c-4bcc-b418-01be3860ab2e",
+      "name": "Virulence Activator",
+      "domains": [
+        {
+          "pssm": 378427,
+          "accession": "pfam10400",
+          "name": "Vir_act_alpha_C",
+          "length": 85,
+          "bitscore": 37.2087,
+          "superfamily": "pfam10400",
+          "label": "Vir_act_alpha_C [pfam10400]",
+          "value": "Vir_act_alpha_C"
+        }
+      ]
+    },
+    {
+      "uuid": "fd769451-4a78-46a9-9de0-092331ea8ff6",
+      "name": "PadR HTH",
+      "domains": [
+        {
+          "pssm": 224609,
+          "accession": "COG1695",
+          "name": "PadR",
+          "length": 138,
+          "bitscore": 38.3251,
+          "superfamily": "cl21459",
+          "label": "PadR [COG1695]",
+          "value": "PadR"
+        }
+      ]
+    },
+    {
       "uuid": "a4152328-dd1e-48d7-a072-420cfa026656",
       "name": "GATase",
       "domains": [
@@ -342,7 +420,7 @@
     },
     {
       "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
-      "name": "HTH MarR",
+      "name": "MarR HTH",
       "domains": [
         {
           "pssm": 197670,
@@ -363,6 +441,16 @@
           "superfamily": "cl21459",
           "label": "MarR_2 [pfam12802]",
           "value": "MarR_2"
+        },
+        {
+          "pssm": 224759,
+          "accession": "COG1846",
+          "name": "MarR",
+          "length": 126,
+          "bitscore": 30.642,
+          "superfamily": "cl21459",
+          "label": "MarR [COG1846]",
+          "value": "MarR"
         }
       ]
     },
@@ -450,7 +538,7 @@
     },
     {
       "uuid": "fa77948a-6989-4bf4-a510-62084971cf26",
-      "name": "HTH AsnC",
+      "name": "AsnC HTH",
       "domains": [
         {
           "pssm": 379172,
@@ -544,7 +632,7 @@
     },
     {
       "uuid": "0d2bd4f3-dc90-45b1-8d7c-f23be236a027",
-      "name": "ArsR",
+      "name": "ArsR HTH",
       "domains": [
         {
           "pssm": 238042,
@@ -1162,7 +1250,7 @@
     },
     {
       "uuid": "3644eae7-8d35-4c29-a629-b2a995f5dc70",
-      "name": "HTH",
+      "name": "LysR HTH",
       "domains": [
         {
           "pssm": 365891,
@@ -1173,15 +1261,13 @@
           "superfamily": "cl21459",
           "label": "HTH_1 [pfam00126]",
           "value": "HTH_1"
-        },
-        {
-          "pssm": 389747,
-          "accession": "cl21459",
-          "name": "HTH",
-          "length": 0,
-          "label": "HTH [cl21459]",
-          "value": "HTH"
-        },
+        }
+      ]
+    },  
+    {
+      "uuid": "3644eae7-8d35-4c29-a629-b2a995f5dc70",
+      "name": "LacI HTH",
+      "domains": [
         {
           "pssm": 143331,
           "accession": "cd01392",
@@ -1201,6 +1287,20 @@
           "superfamily": "cl22854",
           "label": "LacI [pfam00356]",
           "value": "LacI"
+        }
+      ]
+    },
+    {
+      "uuid": "3644eae7-8d35-4c29-a629-b2a995f5dc70",
+      "name": "HTH",
+      "domains": [
+        {
+          "pssm": 389747,
+          "accession": "cl21459",
+          "name": "HTH",
+          "length": 0,
+          "label": "HTH [cl21459]",
+          "value": "HTH"
         },
         {
           "pssm": 294013,
@@ -1570,6 +1670,41 @@
   "rules": [
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ISCSP",
+      "name": "HTH-containing protein",
+      "domains": [
+        "PadR HTH",
+        "AraC HTH",
+        "LuxR HTH",
+        "IclR HTH",
+        "MerR HTH",
+        "HxlR HTH",
+        "MarR HTH ",
+        "AsnC HTH",
+        "ArsR HTH",
+        "LysR HTH",
+        "HTH",
+        "LacI HTH",
+        "TetR N-terminal",
+        "GntR HTH"     
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 or 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ISCSP",
+      "name": "PadR",
+      "domains": [
+        "PadR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ISCSP",
       "name": "Cold shock protein",
       "domains": [
         "CSP"
@@ -1618,13 +1753,12 @@
       "uuid": "a3436695-09d7-490f-acee-6d67a518ICLL",
       "name": "IclR-like",
       "domains": [
-        "IclR HTH",
-        "IclR C-Terminal Domain"
+        "IclR HTH"
       ],
       "filters": [],
       "renames": [],
       "children": [],
-      "evaluator": "0 or 1"
+      "evaluator": "0"
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518MERR",
@@ -1664,7 +1798,7 @@
       "uuid": "a3436695-09d7-490f-acee-6d67a518MAR",
       "name": "MarR",
       "domains": [
-        "HTH MarR"
+        "MarR HTH"
       ],
       "filters": [],
       "renames": [],
@@ -1698,7 +1832,7 @@
       "uuid": "a3436695-09d7-490f-acee-6d67a518S54",
       "name": "AsnC",
       "domains": [
-        "HTH AsnC",
+        "AsnC HTH",
         "AsnC ligand binding domain"
       ],
       "filters": [],
@@ -1742,9 +1876,20 @@
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
-      "name": "LacI-family regulator",
+      "name": "LacI-like",
       "domains": [
-        "HTH",
+        "LacI HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
+      "name": "LacI",
+      "domains": [
+        "LacI HTH",
         "PBP3"
       ],
       "filters": [],
@@ -1754,9 +1899,9 @@
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
-      "name": "GntR-family regulator",
+      "name": "GntR",
       "domains": [
-        "HTH",
+        "GntR HTH",
         "FCD",
         "UTRA"
       ],
@@ -1767,9 +1912,9 @@
     },
     {
       "uuid": "a3436695-09d7-490f-acee-6d67a518ARS",
-      "name": "ArsR repressor",
+      "name": "ArsR",
       "domains": [
-        "ArsR"
+        "ArsR HTH"
       ],
       "filters": [],
       "renames": [],
@@ -1860,13 +2005,13 @@
       "evaluator": "0 and 1"
     },
     {
-      "uuid": "a3436695-09d7-490f-acee-6d67a518CUP",
-      "name": "AraC regulator",
+      "uuid": "a3436695-09d7-490f-acee-6d67a518SUP",
+      "name": "AraC",
       "domains": [
         "AraC HTH",
         "Cupin",
-        "AraC E",
-        "GATase"
+        "GATase",
+        "AraC E"
       ],
       "filters": [],
       "renames": [],
@@ -1874,10 +2019,68 @@
       "evaluator": "0 and (1 or 2 or 3)"
     },
     {
-      "uuid": "a3436695-09d7-490f-acee-6d67a518PBP",
-      "name": "LysR regulator",
+      "uuid": "a3436695-09d7-490f-acee-6d67a518SUP",
+      "name": "Classical AraC",
       "domains": [
-        "HTH",
+        "AraC HTH",
+        "Cupin"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518CVP",
+      "name": "AraC GATase",
+      "domains": [
+        "AraC HTH",
+        "GATase"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518AUP",
+      "name": "AraC effector protein",
+      "domains": [
+        "AraC HTH",
+        "AraC E"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0 and 1"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a5XXXUP",
+      "name": "AraC-like",
+      "domains": [
+        "AraC HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a51XPBP",
+      "name": "LysR-like",
+      "domains": [
+        "LysR HTH"
+      ],
+      "filters": [],
+      "renames": [],
+      "children": [],
+      "evaluator": "0"
+    },
+    {
+      "uuid": "a3436695-09d7-490f-acee-6d67a518PBP",
+      "name": "LysR",
+      "domains": [
+        "LysR HTH",
         "PBP2"
       ],
       "filters": [],
@@ -1999,132 +2202,175 @@
   ],
   "hierarchy": [
     {
-      "title": "Cold shock protein",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
-      "children": []
-    },
-    {
-      "title": "LuxR-like",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86ILRL",
-      "children": [
-      {
-        "title": "LuxR",
-        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
-        "children": []
-      },
-      {
-        "title": "CitB",
-        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
-        "children": []
-      },
-      {
-        "title": "LAL",
-        "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
-        "children": []
-      }
-      ]
-	  },   
-    {
-      "title": "IclR",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86ICLR",
-      "children": []
-	  },   
-    {
-      "title": "IclR-like",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SICLRR",
-      "children": []
-    },
-    {
-      "title": "MerR",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
-      "children": []
-	  },
-    {
-      "title": "HxlR",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+      "title": "HTH-containing protein",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LPADR",
       "children": [
         {
-        "title": "HxlR sterol binding",
-        "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
-        "children": []
-      }
-      ]
-    },
-    {
-      "title": "MarR",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
-      "children": []
-	  },
-    {
-      "title": "CRP-like",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
-      "children": [
+          "title": "PadR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86LPADR",
+          "children": []
+        },
+        {
+          "title": "LuxR-like",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86ILRL",
+          "children": [
+          {
+            "title": "LuxR",
+            "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+            "children": []
+          },
+          {
+            "title": "CitB",
+            "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+            "children": []
+          },
+          {
+            "title": "LAL",
+            "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+            "children": []
+          }
+          ]
+        },
+        {
+          "title": "IclR-like",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SICLRR",
+          "children": [
+            {
+              "title": "IclR",
+              "key": "352651f8-becd-4aba-8f5f-34f83f86ICLR",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "MerR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+          "children": []
+        },
+        {
+          "title": "HxlR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+          "children": [
+            {
+            "title": "HxlR sterol binding",
+            "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+            "children": []
+          }
+          ]
+        },
+        {
+          "title": "MarR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SGMAR",
+          "children": []
+        },
         {
           "title": "CRP",
           "key": "352651f8-becd-4aba-8f5f-34f83f111ASNC",
           "children": []
-        }
-      ]
-	  },
-    {
-      "title": "AsnC-like",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
-      "children": [
+        },
         {
-          "title": "AsnC",
-          "key": "352651f8-becd-4aba-8f5f-34f83f111ASNC",
+          "title": "AsnC-like",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SASNC",
+          "children": [
+            {
+              "title": "AsnC",
+              "key": "352651f8-becd-4aba-8f5f-34f83f111ASNC",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Sigma 54 DNA-binding regulator",
+          "key": "352651f8-becd-4aba-8f5f-34f8Df86SGSSS",
           "children": []
-        }
-      ]
-	  },
-    {
-      "title": "Sigma 54",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGSSS",
-      "children": [
-      {
-        "title": "Sigma 54 DNA-binding regulator",
-        "key": "352651f8-becd-4aba-8f5f-34f8Df86SGSSS",
-        "children": []
-      }
-      ]
-	  },
-    {
-      "title": "LacI-family regulator",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGLLL",
-      "children": []
-	  },
-    {
-      "title": "GntR-family regulator",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SGNTR",
-      "children": []
-	  },
-    {
-      "title": "ArsR repressor",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SARSP",
-      "children": []
-	  },
-    {
-      "title": "TetR-like",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
-      "children": [
+        },
         {
-          "title": "TetR",
+          "title": "LacI",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SGLLL",
+          "children": []
+        },
+        {
+          "title": "GntR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SGNTR",
+          "children": []
+        },
+        {
+          "title": "ArsR",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SARSP",
+          "children": []
+        },
+        {
+          "title": "TetR-like",
           "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
+          "children": [
+            {
+              "title": "TetR",
+              "key": "352651f8-becd-4aba-8f5f-34f83f86LTETR",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "SARP",
+          "key": "352651f8-becd-4aba-8f5f-34f83f86SARP",
+          "children": [
+            { 
+              "title": "Nucleotide-binding SARP",
+              "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "AraC-like",
+          "key": "352651f8-becd-4aba-8f5f-34f83f867ARA",
+          "children": [
+            {
+            "title": "AraC",
+            "key": "352651f8-becd-4aba-8f5f-34f83f867ACA",
+            "children": [
+              {
+                "title": "Classical AraC",
+                "key": "352651f8-becd-4aba-8f5f-34f83f867ACA",
+                "children": []
+              },
+              {
+                "title": "AraC effector protein",
+                "key": "352651f8-becd-4aba-8f5f-34f83f867ACA",
+                "children": []
+              },
+              {
+                "title": "AraC GATase",
+                "key": "352651f8-becd-4aba-8f5f-34f83f867ACA",
+                "children": []
+              }
+            ]
+            }
+          ]
+        },
+        {
+          "title": "LysR-like",
+          "key": "352651f8-becd-4aba-8f5f-34f83f867LYL",
+          "children": [
+            {
+              "title": "LysR",
+              "key": "352651f8-becd-4aba-8f5f-34f83f867LYS",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "DNA-binding response regulator",
+          "key": "a3436695-09d7-490f-acee-6d67a5186284",
           "children": []
         }
       ]
-	  },
+    },
     {
-      "title": "SARP",
-      "key": "352651f8-becd-4aba-8f5f-34f83f86SARP",
-      "children": [
-        { 
-          "title": "Nucleotide-binding SARP",
-          "key": "352651f8-becd-4aba-8f5f-34f83f86LALA",
-          "children": []
-        }
-      ]
-	  },
+      "title": "Cold shock protein",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86LUXR",
+      "children": []
+    },       
     {
       "title": "Sigma 70",
       "key": "352651f8-becd-4aba-8f5f-34f83f86LS70",
@@ -2152,16 +2398,6 @@
       "children": []
 	  },
     {
-      "title": "AraC regulator",
-      "key": "352651f8-becd-4aba-8f5f-34f83f867ARA",
-      "children": []
-	  },
-    {
-      "title": "LysR regulator",
-      "key": "352651f8-becd-4aba-8f5f-34f83f867LYS",
-      "children": []
-	  },
-    {
       "title": "Histidine ATPase",
       "key": "352651f8-becd-4aba-8f5f-34f83f8672a6",
       "children": [
@@ -2180,13 +2416,12 @@
     {
       "title": "Response regulator",
       "key": "a3436695-09d7-490f-acee-6d67a5181112",
-      "children": [
-          {
-            "title": "DNA-binding response regulator",
-            "key": "a3436695-09d7-490f-acee-6d67a5186284",
-            "children": []
-          }
-        ]
+      "children": []
+    },
+    {
+      "title": "Sigma 54",
+      "key": "352651f8-becd-4aba-8f5f-34f83f86SGSSS",
+      "children": []
     }
   ]
 }
